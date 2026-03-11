@@ -72,18 +72,23 @@ const Navbar = () => {
                             {item.dropdown && (
                                 <AnimatePresence>
                                     {isDropdownOpen && (
-                                        <motion.ul
-                                            initial={{ opacity: 0, y: 10 }}
+                                        <motion.div
+                                            initial={{ opacity: 0, y: 15 }}
                                             animate={{ opacity: 1, y: 0 }}
-                                            exit={{ opacity: 0, y: 10 }}
-                                            className="dropdown-menu"
+                                            exit={{ opacity: 0, y: 15 }}
+                                            transition={{ duration: 0.2 }}
+                                            className="simple-dropdown"
                                         >
-                                            {item.dropdown.map((subItem) => (
-                                                <li key={subItem.name}>
-                                                    <Link to={subItem.path}>{subItem.name}</Link>
-                                                </li>
-                                            ))}
-                                        </motion.ul>
+                                            <ul className="simple-dropdown-list">
+                                                {item.dropdown.map((subItem) => (
+                                                    <li key={subItem.name}>
+                                                        <Link to={subItem.path} className="simple-dropdown-link" onClick={() => setIsDropdownOpen(false)}>
+                                                            {subItem.name}
+                                                        </Link>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </motion.div>
                                     )}
                                 </AnimatePresence>
                             )}

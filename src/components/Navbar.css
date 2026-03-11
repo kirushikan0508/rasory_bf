@@ -79,6 +79,12 @@
     width: 100%;
 }
 
+li.has-dropdown {
+    position: relative;
+    padding-bottom: 20px; /* Expands hover area to bridge gap */
+    margin-bottom: -20px;
+}
+
 .dropdown-icon {
     transition: transform 300ms ease;
 }
