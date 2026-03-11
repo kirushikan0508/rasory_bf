@@ -1,0 +1,30 @@
+.theme-toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background: transparent;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.theme-toggle-btn:hover {
+    color: var(--accent-gold);
+    background: rgba(198, 167, 94, 0.1);
+    border-color: rgba(198, 167, 94, 0.2);
+    transform: scale(1.05);
+    /* Slight scale animation logic handled here or via framer-motion parent */
+}
+
+.theme-toggle-btn:active {
+    transform: scale(0.95);
+}
+
+.theme-icon {
+    display: block;
+}

@@ -1,0 +1,223 @@
+/* ===== About Page ===== */
+.about-page {
+    min-height: 100vh;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* Hero */
+.about-hero {
+    position: relative;
+    height: 60vh;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    overflow: hidden;
+}
+
+.about-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(198, 167, 94, 0.08) 0%, transparent 70%);
+}
+
+.about-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    padding: 0 2rem;
+}
+
+.about-label {
+    display: inline-block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: var(--accent-gold);
+    border: 1px solid var(--accent-gold);
+    padding: 0.4rem 1.2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 2px;
+}
+
+.about-hero-title {
+    font-size: 3rem;
+    line-height: 1.15;
+    margin-bottom: 1.2rem;
+}
+
+.about-hero-desc {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+.gold-text {
+    color: var(--accent-gold);
+    font-style: italic;
+}
+
+/* Container */
+.about-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Story Section */
+.about-story-section {
+    padding: 100px 0;
+}
+
+.about-story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-story-text .section-heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-story-text p {
+    color: var(--text-muted);
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+    font-size: 0.95rem;
+}
+
+.about-story-image .image-placeholder {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    background: var(--bg-section);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--accent-gold);
+}
+
+.placeholder-icon {
+    opacity: 0.5;
+}
+
+.about-story-image .image-placeholder span {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    opacity: 0.5;
+}
+
+/* Values Section */
+.about-values-section {
+    padding: 80px 0 100px;
+    background: var(--bg-section);
+}
+
+.section-heading.center {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.value-card {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(198, 167, 94, 0.1);
+    border-color: var(--accent-gold);
+}
+
+.value-icon {
+    color: var(--accent-gold);
+    margin-bottom: 1.2rem;
+}
+
+.value-card h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.8rem;
+}
+
+.value-card p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .about-hero {
+        height: 50vh;
+        min-height: 350px;
+    }
+
+    .about-hero-title {
+        font-size: 2.2rem;
+    }
+
+    .about-story-section {
+        padding: 60px 0;
+    }
+
+    .about-story-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about-values-section {
+        padding: 60px 0 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-hero-title {
+        font-size: 1.7rem;
+    }
+
+    .about-hero-desc {
+        font-size: 0.9rem;
+    }
+
+    .about-label {
+        font-size: 0.65rem;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .value-card {
+        padding: 1.5rem 1.2rem;
+    }
+
+    .about-story-text .section-heading {
+        font-size: 1.5rem;
+    }
+}

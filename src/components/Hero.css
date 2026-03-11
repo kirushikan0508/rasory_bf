@@ -1,0 +1,199 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=2000');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+/* Fallback/Overlay to maintain text readability */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle,
+            rgba(15, 15, 15, 0.4) 0%,
+            rgba(15, 15, 15, 0.8) 100%);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.hero-subtitle {
+    /* No longer used prominently but kept for structure if needed */
+    display: none;
+}
+
+.hero-title {
+    font-size: clamp(3.5rem, 8vw, 6rem);
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    max-width: 900px;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.gold-text {
+    color: var(--accent-gold);
+    font-style: italic;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    /* Main description color */
+    /* Ensure readability on image */
+
+    max-width: 600px;
+    margin-bottom: 3.5rem;
+    line-height: 1.6;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.hero-actions {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.btn-primary {
+    padding: 1rem 3rem;
+    background: var(--accent-gold);
+    color: var(--bg-primary);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    transition: all 300ms ease;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.btn-secondary {
+    padding: 1rem 3rem;
+    border: 1px solid var(--border-subtle);
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    transition: all 300ms ease;
+    background: transparent;
+    border-radius: 4px;
+}
+
+/* Hover Glow Effects */
+.btn-primary:hover {
+    background: var(--accent-gold-light);
+    transform: translateY(-3px);
+    box-shadow: 0 0 30px rgba(198, 167, 94, 0.6);
+}
+
+.btn-secondary:hover {
+    border-color: var(--accent-gold);
+    color: var(--accent-gold);
+    transform: translateY(-3px);
+    box-shadow: 0 0 30px rgba(198, 167, 94, 0.2);
+    background: rgba(198, 167, 94, 0.05);
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.scroll-indicator span {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.mouse {
+    width: 26px;
+    height: 42px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    position: relative;
+}
+
+.wheel {
+    width: 4px;
+    height: 6px;
+    background: var(--accent-gold);
+    border-radius: 2px;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scroll-anim 2s infinite cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes scroll-anim {
+    0% {
+        opacity: 0;
+        top: 8px;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        top: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 100%;
+        align-items: center;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        max-width: 300px;
+    }
+}

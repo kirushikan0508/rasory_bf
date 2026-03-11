@@ -1,0 +1,278 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 4rem;
+    z-index: 9999;
+    transition: all 300ms ease;
+    background: transparent;
+}
+
+.navbar.scrolled {
+    padding: 1rem 4rem;
+    background: var(--bg-primary);
+    /* Changed from fixed rgba to var for theme support */
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid var(--border-subtle);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Light mode specific adjustment for scrolled navbar opacity if needed */
+[data-theme="light"] .navbar.scrolled {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.nav-links {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.nav-item {
+    position: relative;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-primary);
+    font-weight: 500;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+/* Gold Underline Animation */
+.nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--accent-gold);
+    transition: width 300ms ease;
+}
+
+.nav-item:hover {
+    color: var(--accent-gold);
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.dropdown-icon {
+    transition: transform 300ms ease;
+}
+
+li.has-dropdown:hover .dropdown-icon {
+    transform: rotate(180deg);
+}
+
+/* Simple Dropdown Styling */
+.simple-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) !important;
+    background: #ffffff; /* White background as requested */
+    width: 250px;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    z-index: 10000;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.simple-dropdown-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.simple-dropdown-list li {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.simple-dropdown-list li:last-child {
+    border-bottom: none;
+}
+
+.simple-dropdown-link {
+    display: block;
+    padding: 1rem 1.5rem;
+    font-size: 0.85rem;
+    color: #333333; /* Dark text for white background */
+    text-align: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.simple-dropdown-link:hover {
+    background-color: #f8f8f8;
+    color: var(--accent-gold);
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+    color: var(--text-primary);
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms ease;
+}
+
+.theme-toggle:hover {
+    color: var(--accent-gold);
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(15deg);
+}
+
+[data-theme="light"] .theme-toggle:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.cta-button {
+    padding: 0.8rem 1.8rem;
+    background: transparent;
+    color: var(--accent-gold);
+    border: 1px solid var(--accent-gold);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all 300ms ease;
+}
+
+.cta-button:hover {
+    background: var(--accent-gold);
+
+    color: var(--bg-primary);
+    /* Uses var to adapt to theme logic if needed, or stick to dark/gold contrast */
+    box-shadow: 0 0 20px rgba(198, 167, 94, 0.3);
+}
+
+/* Ensure button text is readable in light mode when hovered */
+[data-theme="light"] .cta-button:hover {
+    color: #fff;
+}
+
+
+/* Mobile Actions Container */
+.mobile-actions {
+    display: none;
+    /* Hidden on desktop */
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Mobile Toggle */
+.mobile-toggle {
+    color: var(--text-primary);
+    z-index: 2001;
+    display: block;
+    /* Controlled by parent */
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80%;
+    max-width: 400px;
+    height: 100vh;
+    background: var(--bg-section);
+    padding: 8rem 2rem;
+    z-index: 2000;
+    box-shadow: -10px 0 50px rgba(0, 0, 0, 0.8);
+}
+
+[data-theme="light"] .mobile-menu {
+    box-shadow: -10px 0 50px rgba(0, 0, 0, 0.15);
+}
+
+.mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mobile-nav-links li a,
+.mobile-nav-item {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-sub-menu {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+    border-left: 1px solid var(--accent-gold);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mobile-sub-menu a {
+    font-size: 0.9rem !important;
+    color: var(--text-muted) !important;
+}
+
+.mobile-cta {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1100px) {
+    .navbar {
+        padding: 1.5rem 2rem;
+    }
+
+    .navbar.scrolled {
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-actions {
+        display: flex;
+        /* Show on mobile */
+    }
+}

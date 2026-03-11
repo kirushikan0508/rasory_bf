@@ -1,0 +1,81 @@
+.quote-section {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: var(--bg-primary);
+}
+
+.quote-parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    /* For parallax effect */
+    background-image: url('https://images.unsplash.com/photo-1555529733-0e670560f7e1?auto=format&fit=crop&q=80&w=2000');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.quote-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, transparent 0%, var(--bg-primary) 100%);
+    z-index: 2;
+}
+
+.quote-container {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+}
+
+.quote-box {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.quote-mark {
+    font-family: var(--font-heading);
+    font-size: 8rem;
+    color: var(--accent-gold);
+    line-height: 1;
+    display: block;
+    margin-bottom: -2rem;
+    opacity: 0.5;
+}
+
+.quote-text {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-style: italic;
+    line-height: 1.3;
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+}
+
+.quote-author {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--accent-gold);
+}
+
+@media (max-width: 768px) {
+    .quote-section {
+        height: 50vh;
+    }
+
+    .quote-mark {
+        font-size: 5rem;
+        margin-bottom: -1rem;
+    }
+}

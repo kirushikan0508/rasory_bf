@@ -1,0 +1,214 @@
+/* ===== Inspiration Page ===== */
+.inspiration-page {
+    min-height: 100vh;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* Hero */
+.insp-hero {
+    position: relative;
+    height: 55vh;
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #0d0d0d 0%, #1c1c1c 100%);
+    overflow: hidden;
+}
+
+.insp-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(198, 167, 94, 0.06) 0%, transparent 70%);
+}
+
+.insp-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 650px;
+    padding: 0 2rem;
+}
+
+.insp-label {
+    display: inline-block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: var(--accent-gold);
+    border: 1px solid var(--accent-gold);
+    padding: 0.4rem 1.2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 2px;
+}
+
+.insp-hero-title {
+    font-size: 3rem;
+    line-height: 1.15;
+    margin-bottom: 1.2rem;
+}
+
+.insp-hero-desc {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+/* Container */
+.insp-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.insp-section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* Style Cards */
+.insp-styles-section {
+    padding: 100px 0;
+}
+
+.insp-styles-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.insp-style-card {
+    background: var(--bg-section);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.insp-style-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--accent-gold);
+    box-shadow: 0 12px 30px rgba(198, 167, 94, 0.1);
+}
+
+.insp-style-icon {
+    color: var(--accent-gold);
+    margin-bottom: 1.2rem;
+}
+
+.insp-style-card h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.8rem;
+}
+
+.insp-style-card p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+/* Gallery */
+.insp-gallery-section {
+    padding: 80px 0 100px;
+    background: var(--bg-section);
+}
+
+.insp-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.insp-gallery-card {
+    overflow: hidden;
+    border-radius: 6px;
+    border: 1px solid var(--border-subtle);
+    transition: border-color 0.3s ease;
+}
+
+.insp-gallery-card:hover {
+    border-color: var(--accent-gold);
+}
+
+.gallery-placeholder {
+    aspect-ratio: 4 / 3;
+    background: var(--bg-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    position: relative;
+}
+
+.gallery-tag {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--accent-gold);
+    background: rgba(198, 167, 94, 0.1);
+    padding: 0.25rem 0.8rem;
+    border-radius: 2px;
+}
+
+.gallery-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .insp-hero {
+        height: 45vh;
+        min-height: 320px;
+    }
+
+    .insp-hero-title {
+        font-size: 2.2rem;
+    }
+
+    .insp-styles-section {
+        padding: 60px 0;
+    }
+
+    .insp-styles-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .insp-gallery-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .insp-gallery-section {
+        padding: 60px 0 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .insp-hero-title {
+        font-size: 1.7rem;
+    }
+
+    .insp-hero-desc {
+        font-size: 0.9rem;
+    }
+
+    .insp-styles-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .insp-gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .insp-section-title {
+        font-size: 1.5rem;
+    }
+}
