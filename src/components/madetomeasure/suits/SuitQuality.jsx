@@ -28,9 +28,7 @@ const SuitQuality = () => {
             <div className="suit-quality-container" ref={sectionRef}>
                 <h2 className="suit-quality-title">Quality that takes its time</h2>
                 <p className="suit-quality-desc">
-                    No shortcut, no fast-track. Each suit is sewn by hand, measured with care, 
-                    crafted from fabrics of the highest quality. Our tailors take 3–4 weeks to deliver perfection — 
-                    because the finest things in life deserve patience.
+                    Production typically takes up to four weeks. If needed, I also offer an express service within three weeks. Quality and precision are my top priorities, ensuring you receive a unique garment.
                 </p>
             </div>
         </section>

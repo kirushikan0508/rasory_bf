@@ -28,8 +28,7 @@ const SuitIntro = () => {
             <div className="suit-intro-container">
                 <h1 className="suit-intro-title">A suit that not only fits, but inspires</h1>
                 <p className="suit-intro-text">
-                    Getting a good suit is a whole different experience at Rasory. We believe that the perfect suit tells a story — of craftsmanship, attention to detail, and the person who wears it.
-                    Our approach is distinctly personal: working one-on-one with you, from the very first measurement to the final stitch, we create pieces that embody confidence, elegance, and authenticity. It's modern tailoring that honors tradition.
+                    Crafting a high-quality suit, whether an elegant two-piece or a stylish three-piece suit with a waistcoat, requires meticulous care, passion, and masterful craftsmanship. I use only exclusive fabrics and develop individual patterns precisely tailored to your wishes and your personal physique. Every step in the manufacturing process is carefully considered and precise: from selecting the perfect fabric and developing the detailed pattern to the high-quality finishing. A two-piece suit focuses on stylish, timeless elegance, while a three-piece suit with a waistcoat offers an additional dimension of sophistication and versatility.
                 </p>
             </div>
         </section>

@@ -45,11 +45,11 @@ const Store = () => {
                     className="store-hero-img"
                 />
                 <div className="store-hero-overlay"></div>
-                <div className="store-hero-cta">
+                {/* <div className="store-hero-cta">
                     <Link to="/booking">
                         <button className="store-hero-btn">Book An Appointment</button>
                     </Link>
-                </div>
+                </div> */}
             </section>
 
             {/* Store Info + Image Grid */}
@@ -57,27 +57,29 @@ const Store = () => {
                 <div className="store-details-container">
                     {/* Left: Info */}
                     <div className="store-info-col" ref={addRef}>
-                        <div className="store-location-block">
-                            <h2 className="store-city">Bern</h2>
-                            <div className="store-address">
-                                <p>Waaghaus-Passage 8</p>
-                                <p>3011 Bern</p>
-                                <p>store@rasory.ch</p>
-                                <p>+41 78 312 41 88</p>
+                        <div className="store-top-info">
+                            <div className="store-location-block">
+                                <h2 className="store-city">Bern</h2>
+                                <div className="store-address">
+                                    <p>Waaghaus-Passage 8</p>
+                                    <p>3011 Bern</p>
+                                    <p>store@rasory.ch</p>
+                                    <p>+41 78 312 41 88</p>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="store-hours-block">
-                            <h3 className="store-hours-title">OPENING HOURS</h3>
-                            <div className="store-hours-list">
+                            <div className="store-hours-block">
+                                <h3 className="store-hours-title">OPENING HOURS</h3>
+                                <div className="store-hours-list">
                                 <div className="store-hours-row">
-                                    <span>Monday – Friday</span>
-                                    <span>8.30 am – 6.00 pm</span>
+                                    <span className="hours-day">Monday – Friday</span>
+                                    <span className="hours-time">8.30 am – 6.00 pm</span>
                                 </div>
                                 <div className="store-hours-row">
-                                    <span>Saturday</span>
-                                    <span>9.00 am – 5.00 pm</span>
+                                    <span className="hours-day">Saturday</span>
+                                    <span className="hours-time">9.00 am – 5.00 pm</span>
                                 </div>
+                            </div>
                             </div>
                         </div>
 
@@ -108,20 +110,20 @@ const Store = () => {
                         <div className="store-img-grid">
                             <div className="store-img-card store-img-tall">
                                 <img
-                                    src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=600"
-                                    alt="Tailor measuring a client"
+                                    src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=800"
+                                    alt="Tailor measuring client"
                                 />
                             </div>
                             <div className="store-img-card store-img-top-right">
                                 <img
-                                    src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600"
-                                    alt="Premium suit jacket"
+                                    src="https://images.unsplash.com/photo-1621072156002-e2fcced0b170?auto=format&fit=crop&q=80&w=600"
+                                    alt="Pinstripe suit on mannequin"
                                 />
                             </div>
                             <div className="store-img-card store-img-bottom-right">
                                 <img
-                                    src="https://images.unsplash.com/photo-1594938298596-f9fe3195ed84?auto=format&fit=crop&q=80&w=600"
-                                    alt="Accessories and details"
+                                    src="https://images.unsplash.com/photo-1520004481444-1660c392c101?auto=format&fit=crop&q=80&w=600"
+                                    alt="Fabrics on hangers"
                                 />
                             </div>
                         </div>

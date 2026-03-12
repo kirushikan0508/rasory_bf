@@ -27,10 +27,7 @@ const SuitDesc = () => {
         <section className="suit-desc-section" ref={sectionRef}>
             <div className="suit-desc-container">
                 <p>
-                    Every single garment is a reflection of its wearer — composed from handpicked materials, 
-                    cut from the finest fabrics, created with the care and dedication that only master tailoring 
-                    allows. Each suit is perfectly sized, individually shaped, following your taste in every detail. 
-                    We produce no mass — we create wearable art, tailored to live.
+                    By meticulously working through each stage, we combine precision with dedication to create a result that not only fits perfectly but also reflects your unique personality. Whether you desire an elegant business suit or a formal suit for special occasions, I will craft your bespoke suit, perfectly tailored to your needs.
                 </p>
             </div>
         </section>
