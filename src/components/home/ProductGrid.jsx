@@ -6,26 +6,26 @@ const products = [
     {
         subtitle: "Elegance that inspires",
         buttonText: "TAILOR-MADE SUITS",
-        image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80&w=800",
-        link: "#suits"
+        image: "https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=800",
+        link: "/made-to-measure/suit"
     },
     {
         subtitle: "Feels like a second skin",
         buttonText: "MADE-TO-MEASURE SHIRTS",
-        image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&q=80&w=800",
-        link: "#shirts"
+        image: "https://images.unsplash.com/photo-1603251578711-3290ca1a0187?auto=format&fit=crop&q=80&w=800",
+        link: "/made-to-measure/shirt"
     },
     {
         subtitle: "Comfort and elegance made to measure",
         buttonText: "TAILOR-MADE TROUSERS",
-        image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&q=80&w=800",
-        link: "#trousers"
+        image: "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=800",
+        link: "/made-to-measure/trouser"
     },
     {
         subtitle: "Focus on your individual style",
         buttonText: "MADE-TO-MEASURE JACKET",
-        image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80&w=800",
-        link: "#jackets"
+        image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800",
+        link: "/made-to-measure/jacket"
     }
 ];
 
@@ -50,7 +50,7 @@ const ProductGrid = () => {
                         <motion.div
                             key={index}
                             initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
+                            whileInView={{ opacity: 1, x: 0 }} // Corrected horizontal movement if needed, or kept consistent
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             className="product-card"
