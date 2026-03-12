@@ -28,10 +28,7 @@ const ShirtPersonal = () => {
             <div className="shirt-personal-container" ref={sectionRef}>
                 <h2 className="shirt-personal-title">Personal, stylish, versatile</h2>
                 <p className="shirt-personal-desc">
-                    Custom-made shirts offer more than just a fit — they're a subtle form of self-expression.
-                    You define the collar shape, the button style, the placket design, even the monogramming —
-                    personal style infused into every detail. Our craftsmanship means richly textured materials and the very best
-                    in hand-finished quality, for business to your finest events.
+                    A custom-made shirt offers countless combination possibilities to perfectly highlight your personal style. Whether for the workday, an elegant event, or a relaxed leisure look, our shirts adapt to your needs and ensure a sophisticated, personal style that allows you to project confidence and style. Let yourself be inspired by quality and style.
                 </p>
             </div>
         </section>

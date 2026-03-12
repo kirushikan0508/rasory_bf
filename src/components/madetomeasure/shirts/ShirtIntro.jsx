@@ -28,9 +28,7 @@ const ShirtIntro = () => {
             <div className="shirt-intro-container">
                 <h1 className="shirt-intro-title">Perfection that feels like a second skin</h1>
                 <p className="shirt-intro-text">
-                    My made-to-measure shirts fit like no off-the-rack shirt ever could. Created from the world's finest fabrics, with meticulous
-                    attention to every detail. Together we will give you an experience that fits your personality, your needs, your life.
-                    The result is a shirt so natural and individual that it feels like a second skin.
+                    Your individual fit is my top priority. My goal is for your bespoke shirt to fit you like a second skin – comfortable and perfectly tailored. Together, we'll choose the right collar style and cuffs to accentuate your personal taste. I pay meticulous attention to quality and detail, ensuring that every shirt is unique.
                 </p>
             </div>
         </section>

@@ -28,11 +28,7 @@ const TrouserIntro = () => {
             <div className="trouser-intro-container">
                 <h1 className="trouser-intro-title">Comfort and elegance made to measure</h1>
                 <p className="trouser-intro-text">
-                    Perfectly fitting trousers are the foundation of a successful appearance. With the focus on the individual fit and unique
-                    materials and patterns. The quality, the wonderful fabrics and skillful tailoring, create a style that is as individual as the
-                    man who wears them — for comfort, signature and character. Whether a classic crease or a more relaxed chino fit — every line is
-                    made from our trousers. The finest textiles, hand-tailored to perfection, embody our commitment to style and craftsmanship to
-                    create a pair of trousers that stands out with impeccable quality, perfect craftsmanship and individual design.
+                    A perfectly fitting pair of trousers is the foundation of a polished look. For me, the individual fit is paramount to ensure maximum comfort. The trousers offer versatile styles and stylish details. I will advise you on fabrics, cuts, and designs to create trousers that fit perfectly. Together, we will determine the details, from the waistband and fabric to the fit, to create trousers that meet both your aesthetic requirements and your comfort needs. My goal is to create bespoke trousers that stand out through superior quality, impeccable craftsmanship, and individual design.
                 </p>
             </div>
         </section>
