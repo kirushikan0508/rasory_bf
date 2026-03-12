@@ -5,17 +5,19 @@ import './Hero.css';
 const Hero = () => {
     return (
         <section className="hero">
-            <motion.div
-                initial={{ scale: 1 }}
-                animate={{ scale: 1.1 }}
-                transition={{
-                    duration: 20,
-                    ease: "linear",
-                    repeat: Infinity,
-                    repeatType: "mirror"
-                }}
-                className="hero-background"
-            ></motion.div>
+            <div className="hero-background-container">
+                <video
+                    className="hero-video"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=2000"
+                >
+                    <source src="https://cdn.pixabay.com/video/2024/03/29/206029_large.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
 
             <div className="hero-overlay"></div>
 
