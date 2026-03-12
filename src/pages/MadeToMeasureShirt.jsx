@@ -3,12 +3,12 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 // Components
-import ShirtHero from '../components/ShirtHero';
-import ShirtIntro from '../components/ShirtIntro';
-import ShirtRow from '../components/ShirtRow';
-import ShirtFabrics from '../components/ShirtFabrics';
-import ShirtPersonal from '../components/ShirtPersonal';
-import ShirtConsult from '../components/ShirtConsult';
+import ShirtHero from '../components/madetomeasure/shirts/ShirtHero';
+import ShirtIntro from '../components/madetomeasure/shirts/ShirtIntro';
+import ShirtRow from '../components/madetomeasure/shirts/ShirtRow';
+import ShirtFabrics from '../components/madetomeasure/shirts/ShirtFabrics';
+import ShirtPersonal from '../components/madetomeasure/shirts/ShirtPersonal';
+import ShirtConsult from '../components/madetomeasure/shirts/ShirtConsult';
 
 import './MadeToMeasureShirt.css';
 

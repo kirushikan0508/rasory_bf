@@ -3,12 +3,12 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 // Components
-import TrouserHero from '../components/TrouserHero';
-import TrouserIntro from '../components/TrouserIntro';
-import TrouserRow from '../components/TrouserRow';
-import TrouserStyle from '../components/TrouserStyle';
-import TrouserStrip from '../components/TrouserStrip';
-import TrouserConsult from '../components/TrouserConsult';
+import TrouserHero from '../components/madetomeasure/trousers/TrouserHero';
+import TrouserIntro from '../components/madetomeasure/trousers/TrouserIntro';
+import TrouserRow from '../components/madetomeasure/trousers/TrouserRow';
+import TrouserStyle from '../components/madetomeasure/trousers/TrouserStyle';
+import TrouserStrip from '../components/madetomeasure/trousers/TrouserStrip';
+import TrouserConsult from '../components/madetomeasure/trousers/TrouserConsult';
 
 import './MadeToMeasureTrouser.css';
 

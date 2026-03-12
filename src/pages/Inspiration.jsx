@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import InspirationHero from '../components/InspirationHero';
-import InspirationTitle from '../components/InspirationTitle';
-import InspirationGallery from '../components/InspirationGallery';
-import InspirationCTA from '../components/InspirationCTA';
+import InspirationHero from '../components/inspiration/InspirationHero';
+import InspirationTitle from '../components/inspiration/InspirationTitle';
+import InspirationGallery from '../components/inspiration/InspirationGallery';
+import InspirationCTA from '../components/inspiration/InspirationCTA';
 import './Inspiration.css';
 
 const Inspiration = () => {

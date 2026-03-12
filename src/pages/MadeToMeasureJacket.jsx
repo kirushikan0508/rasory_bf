@@ -3,11 +3,11 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 // Components
-import JacketHero from '../components/JacketHero';
-import JacketIntro from '../components/JacketIntro';
-import JacketRow from '../components/JacketRow';
-import JacketVersatile from '../components/JacketVersatile';
-import JacketConsult from '../components/JacketConsult';
+import JacketHero from '../components/madetomeasure/jackets/JacketHero';
+import JacketIntro from '../components/madetomeasure/jackets/JacketIntro';
+import JacketRow from '../components/madetomeasure/jackets/JacketRow';
+import JacketVersatile from '../components/madetomeasure/jackets/JacketVersatile';
+import JacketConsult from '../components/madetomeasure/jackets/JacketConsult';
 
 import './MadeToMeasureJacket.css';
 

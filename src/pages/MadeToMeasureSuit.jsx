@@ -3,14 +3,14 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 // Components
-import SuitHero from '../components/SuitHero';
-import SuitIntro from '../components/SuitIntro';
-import SuitStoreStrip from '../components/SuitStoreStrip';
-import SuitDesc from '../components/SuitDesc';
-import SuitRow from '../components/SuitRow';
-import SuitFabrics from '../components/SuitFabrics';
-import SuitQuality from '../components/SuitQuality';
-import SuitConsult from '../components/SuitConsult';
+import SuitHero from '../components/madetomeasure/suits/SuitHero';
+import SuitIntro from '../components/madetomeasure/suits/SuitIntro';
+import SuitStoreStrip from '../components/madetomeasure/suits/SuitStoreStrip';
+import SuitDesc from '../components/madetomeasure/suits/SuitDesc';
+import SuitRow from '../components/madetomeasure/suits/SuitRow';
+import SuitFabrics from '../components/madetomeasure/suits/SuitFabrics';
+import SuitQuality from '../components/madetomeasure/suits/SuitQuality';
+import SuitConsult from '../components/madetomeasure/suits/SuitConsult';
 
 import './MadeToMeasureSuit.css';
 

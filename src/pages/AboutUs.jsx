@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import AboutHero from '../components/AboutHero';
-import AboutStory from '../components/AboutStory';
-import AboutStrip from '../components/AboutStrip';
-import AboutValues from '../components/AboutValues';
-import AboutQuote from '../components/AboutQuote';
+import AboutHero from '../components/about/AboutHero';
+import AboutStory from '../components/about/AboutStory';
+import AboutStrip from '../components/about/AboutStrip';
+import AboutValues from '../components/about/AboutValues';
+import AboutQuote from '../components/about/AboutQuote';
 import './AboutUs.css';
 
 const AboutUs = () => {
