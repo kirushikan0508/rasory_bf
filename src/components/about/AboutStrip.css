@@ -1,0 +1,34 @@
+/* ===== Full-Width Image Strip ===== */
+.about-strip {
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    min-height: 280px;
+    overflow: hidden;
+}
+
+.about-strip-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 8s ease;
+}
+
+.about-strip:hover .about-strip-img {
+    transform: scale(1.04);
+}
+
+.about-strip-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35));
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .about-strip {
+        height: 30vh;
+        min-height: 200px;
+    }
+}

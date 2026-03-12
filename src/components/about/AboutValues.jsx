@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import './AboutValues.css';
 
 const AboutValues = () => {
     const fadeRefs = useRef([]);

@@ -1,0 +1,62 @@
+/* ===== Title Section ===== */
+.insp-title-section {
+    padding: 80px 2rem 60px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.insp-title-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.insp-title-container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.insp-main-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.insp-main-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: var(--accent-gold);
+    margin: 1.2rem auto 0;
+}
+
+.insp-main-desc {
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .insp-title-section {
+        padding: 50px 1.5rem 40px;
+    }
+
+    .insp-main-title {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .insp-main-title {
+        font-size: 1.3rem;
+    }
+
+    .insp-main-desc {
+        font-size: 0.85rem;
+    }
+}

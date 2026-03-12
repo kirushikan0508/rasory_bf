@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import './AboutQuote.css';
 
 const AboutQuote = () => {
     const containerRef = useRef(null);

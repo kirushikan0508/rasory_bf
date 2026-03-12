@@ -1,0 +1,40 @@
+/* ===== CTA Section ===== */
+.insp-cta-section {
+    text-align: center;
+    padding: 20px 2rem 80px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.insp-cta-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.insp-cta-btn {
+    padding: 1rem 3rem;
+    background: transparent;
+    color: var(--accent-gold);
+    border: 2px solid var(--accent-gold);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    border-radius: 0;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.insp-cta-btn:hover {
+    background: var(--accent-gold);
+    color: var(--bg-primary);
+    box-shadow: 0 0 30px rgba(198, 167, 94, 0.35);
+}
+
+@media (max-width: 480px) {
+    .insp-cta-btn {
+        padding: 0.85rem 2rem;
+        font-size: 0.8rem;
+    }
+}

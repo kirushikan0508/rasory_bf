@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import './InspirationCTA.css';
 
 const InspirationCTA = () => {
     const sectionRef = useRef(null);

@@ -1,4 +1,5 @@
 import React from 'react';
+import './InspirationHero.css';
 
 const InspirationHero = () => {
     return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import './AboutStrip.css';
 
 const AboutStrip = () => {
     return (

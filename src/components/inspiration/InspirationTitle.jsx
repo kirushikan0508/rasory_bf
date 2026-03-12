@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import './InspirationTitle.css';
 
 const InspirationTitle = () => {
     const sectionRef = useRef(null);

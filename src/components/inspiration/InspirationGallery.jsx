@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import './InspirationGallery.css';
 
 const InspirationGallery = () => {
     const fadeRefs = useRef([]);
