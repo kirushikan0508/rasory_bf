@@ -11,11 +11,11 @@ const JacketHero = () => {
                 className="jacket-hero-img"
             />
             <div className="jacket-hero-overlay"></div>
-            <div className="jacket-hero-cta">
+            {/* <div className="jacket-hero-cta">
                 <Link to="/booking">
                     <button className="jacket-hero-btn">Book an Appointment</button>
                 </Link>
-            </div>
+            </div> */}
         </section>
     );
 };

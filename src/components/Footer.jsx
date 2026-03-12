@@ -1,5 +1,6 @@
 import React from 'react';
 import { Instagram, Facebook, Twitter, MapPin, Phone, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -28,10 +29,10 @@ const Footer = () => {
                     <div className="footer-col">
                         <h4 className="footer-col-title">Quick Links</h4>
                         <ul className="footer-col-list">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Store</a></li>
-                            <li><a href="#">Inspiration</a></li>
-                            <li><a href="#">Price List</a></li>
+                            <li><Link to="/about">About Us</Link></li>
+                            <li><Link to="/store">Store</Link></li>
+                            <li><Link to="/inspiration">Inspiration</Link></li>
+                            <li><Link to="/price-list">Price List</Link></li>
                         </ul>
                     </div>
 
@@ -39,10 +40,10 @@ const Footer = () => {
                     <div className="footer-col">
                         <h4 className="footer-col-title">Made to Measure</h4>
                         <ul className="footer-col-list">
-                            <li><a href="#">Bespoke Suits</a></li>
-                            <li><a href="#">Custom Shirts</a></li>
-                            <li><a href="#">Tailored Trousers</a></li>
-                            <li><a href="#">Jackets &amp; Blazers</a></li>
+                            <li><Link to="/made-to-measure/suit">Bespoke Suits</Link></li>
+                            <li><Link to="/made-to-measure/shirt">Custom Shirts</Link></li>
+                            <li><Link to="/made-to-measure/trouser">Tailored Trousers</Link></li>
+                            <li><Link to="/made-to-measure/jacket">Jackets &amp; Blazers</Link></li>
                         </ul>
                     </div>
 

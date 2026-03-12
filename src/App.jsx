@@ -9,10 +9,12 @@ import MadeToMeasureShirt from './pages/MadeToMeasureShirt';
 import MadeToMeasureTrouser from './pages/MadeToMeasureTrouser';
 import MadeToMeasureSuit from './pages/MadeToMeasureSuit';
 import MadeToMeasureJacket from './pages/MadeToMeasureJacket';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />

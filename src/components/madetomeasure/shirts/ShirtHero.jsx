@@ -11,11 +11,11 @@ const ShirtHero = () => {
                 className="shirt-hero-img"
             />
             <div className="shirt-hero-overlay"></div>
-            <div className="shirt-hero-cta">
+            {/* <div className="shirt-hero-cta">
                 <Link to="/booking">
                     <button className="shirt-hero-btn">Book an Appointment</button>
                 </Link>
-            </div>
+            </div> */}
         </section>
     );
 };

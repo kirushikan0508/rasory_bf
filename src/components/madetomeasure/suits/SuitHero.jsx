@@ -11,11 +11,11 @@ const SuitHero = () => {
                 className="suit-hero-img"
             />
             <div className="suit-hero-overlay"></div>
-            <div className="suit-hero-cta">
+            {/* <div className="suit-hero-cta">
                 <Link to="/booking">
                     <button className="suit-hero-btn">Book an Appointment</button>
                 </Link>
-            </div>
+            </div> */}
         </section>
     );
 };
