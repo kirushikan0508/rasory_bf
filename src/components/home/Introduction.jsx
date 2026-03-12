@@ -1,8 +1,14 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import './Introduction.css';
 
 const Introduction = () => {
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    const toggleExpand = () => {
+        setIsExpanded(!isExpanded);
+    };
+
     return (
         <section id="heritage" className="introduction section-padding">
             <div className="premium-container">
@@ -15,10 +21,10 @@ const Introduction = () => {
                         className="intro-image-container"
                     >
                         <div className="image-wrapper main-img">
-                            <img src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80&w=800" alt="Tailor at work" />
+                            <img src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=800" alt="Tailor measuring client" />
                         </div>
                         <div className="image-wrapper small-img">
-                            <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&q=80&w=600" alt="Fabric detail" />
+                            <img src="https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=600" alt="Bespoke suit on mannequin" />
                         </div>
                     </motion.div>
 
@@ -33,19 +39,35 @@ const Introduction = () => {
                         <h2 className="section-title">Tailor-made elegance that inspires</h2>
                         <div className="divider"></div>
                         <p className="intro-paragraph">
-                            Are you looking for an exclusive, high-quality custom-made product that is
-                            perfectly tailored to you? Then you've come to the right place. The world
-                            of fashion is our great passion, it all started over ten years ago, and
-                            since then I have been providing a unique shopping experience that will
-                            delight you.
+                            Are you looking for an exclusive, high-quality, custom-made garment perfectly tailored to you?
+                            Then you've come to the right place. The world of fashion is my great passion; it all started over
+                            ten years ago, and since then I've been creating a unique shopping experience that will delight
+                            you. I now specialize in creating individual, bespoke clothing. Our motto is: "Clothes make the
+                            person," and this is exactly what my work reflects. I place great importance on incorporating your
+                            personality and style into every single garment...
                         </p>
-                        <p className="intro-paragraph">
-                            In the meantime, I have specialized in the production of individual
-                            made-to-measure clothing. Our motto: "Clothes make the man" and that's
-                            exactly what is reflected in my work. I attach great importance to
-                            letting your personality and style flow into every single piece of clothing.
-                        </p>
-                        <a href="#process" className="read-more">Learn about our history →</a>
+
+                        <div className="intro-actions">
+                            <button onClick={toggleExpand} className="read-more-btn">
+                                {isExpanded ? 'Show Less ↑' : 'Read More ↓'}
+                            </button>
+                        </div>
+
+                        <AnimatePresence>
+                            {isExpanded && (
+                                <motion.div
+                                    initial={{ height: 0, opacity: 0 }}
+                                    animate={{ height: 'auto', opacity: 1 }}
+                                    exit={{ height: 0, opacity: 0 }}
+                                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                                    className="expanded-content"
+                                >
+                                    <p className="intro-paragraph extra-text">
+                                        My goal is not only to offer you an unforgettable shopping experience, but also to create bespoke garments that perfectly reflect your individual vision. Your wishes and ideas play a central role in the entire creation process. To ensure you feel comfortable and supported from the very beginning, I will guide you with expert and professional advice and meticulous attention to detail every step of the way, from the careful selection of high-quality fabrics and the individual design of cuts and color nuances to the final fitting. Let's create your perfect garment together – bespoke, high-quality, and uniquely tailored to you. Your vision is my responsibility.
+                                    </p>
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
                     </motion.div>
                 </div>
             </div>
