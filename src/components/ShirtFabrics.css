@@ -1,0 +1,79 @@
+/* ===== Fabrics ===== */
+.shirt-fabrics-section {
+    padding: 70px 0;
+    background: var(--bg-section);
+    text-align: center;
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.shirt-fabrics-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.shirt-fabrics-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.shirt-fabrics-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 2.5rem;
+    color: var(--text-primary);
+}
+
+.shirt-fabrics-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--accent-gold);
+    margin: 1rem auto 0;
+}
+
+.shirt-fabrics-brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.shirt-brand-item {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+    padding: 1rem 2rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.shirt-brand-item:hover {
+    border-color: var(--accent-gold);
+    color: var(--accent-gold);
+}
+
+@media (max-width: 768px) {
+    .shirt-fabrics-brands {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .shirt-fabrics-title {
+        font-size: 1.3rem;
+    }
+
+    .shirt-brand-item {
+        font-size: 0.8rem;
+        padding: 0.7rem 1.2rem;
+    }
+}

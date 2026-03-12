@@ -1,0 +1,55 @@
+/* ===== Intro Section ===== */
+.suit-intro-section {
+    padding: 80px 0 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.suit-intro-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.suit-intro-container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: left;
+}
+
+.suit-intro-title {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.suit-intro-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--accent-gold);
+    margin-top: 1rem;
+}
+
+.suit-intro-text {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.85;
+}
+
+@media (max-width: 768px) {
+    .suit-intro-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .suit-intro-title {
+        font-size: 1.3rem;
+    }
+}

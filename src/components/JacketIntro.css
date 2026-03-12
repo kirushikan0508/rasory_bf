@@ -1,0 +1,55 @@
+/* ===== Intro ===== */
+.jacket-intro-section {
+    padding: 80px 0 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.jacket-intro-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.jacket-intro-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.jacket-intro-title {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.jacket-intro-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--accent-gold);
+    margin: 1rem auto 0;
+}
+
+.jacket-intro-text {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.85;
+}
+
+@media (max-width: 768px) {
+    .jacket-intro-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .jacket-intro-title {
+        font-size: 1.3rem;
+    }
+}

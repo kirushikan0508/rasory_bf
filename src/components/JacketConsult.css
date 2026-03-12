@@ -1,0 +1,112 @@
+/* ===== Consulting Section ===== */
+.jacket-consult-section {
+    padding: 80px 0 100px;
+    background: var(--bg-section);
+}
+
+.jacket-consult-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.jacket-consult-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    color: var(--text-primary);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.jacket-consult-title.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.jacket-consult-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--accent-gold);
+    margin: 1rem auto 0;
+}
+
+.jacket-consult-subtitle {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s ease 0.1s, transform 0.7s ease 0.1s;
+}
+
+.jacket-consult-subtitle.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.jacket-consult-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.jacket-consult-card {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    opacity: 0;
+    transform: translateY(25px);
+}
+
+.jacket-consult-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.jacket-consult-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-gold);
+}
+
+.jacket-consult-icon {
+    color: var(--accent-gold);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jacket-consult-card h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.jacket-consult-card p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .jacket-consult-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .jacket-consult-title {
+        font-size: 1.3rem;
+    }
+}
