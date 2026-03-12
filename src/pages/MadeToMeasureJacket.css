@@ -1,0 +1,345 @@
+/* ===== Jacket Page ===== */
+.jacket-page {
+    min-height: 100vh;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* ===== Hero ===== */
+.jacket-hero {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.jacket-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 8s ease;
+}
+
+.jacket-hero:hover .jacket-hero-img {
+    transform: scale(1.04);
+}
+
+.jacket-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%);
+    pointer-events: none;
+}
+
+.jacket-hero-cta {
+    position: absolute;
+    bottom: 2.5rem;
+    right: 3rem;
+    z-index: 2;
+}
+
+.jacket-hero-btn {
+    padding: 0.85rem 2rem;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    cursor: pointer;
+    border-radius: 3px;
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.jacket-hero-btn:hover {
+    background: var(--accent-gold);
+    color: var(--bg-primary);
+    border-color: var(--accent-gold);
+    box-shadow: 0 0 25px rgba(198, 167, 94, 0.4);
+}
+
+/* ===== Intro ===== */
+.jacket-intro-section {
+    padding: 80px 0 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.jacket-intro-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.jacket-intro-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.jacket-intro-title {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.jacket-intro-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--accent-gold);
+    margin: 1rem auto 0;
+}
+
+.jacket-intro-text {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.85;
+}
+
+/* ===== Image Row ===== */
+.jacket-row-section {
+    padding: 0 2rem 70px;
+}
+
+.jacket-row-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.jacket-row-card {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    height: 320px;
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.jacket-row-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.jacket-row-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.jacket-row-card:hover img {
+    transform: scale(1.08);
+}
+
+/* ===== Versatility Section ===== */
+.jacket-versatile-section {
+    padding: 80px 0;
+    background: var(--bg-primary);
+}
+
+.jacket-versatile-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.jacket-versatile-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.jacket-versatile-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.jacket-versatile-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--accent-gold);
+    margin: 1rem auto 0;
+}
+
+.jacket-versatile-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.85;
+}
+
+/* ===== Consulting Section ===== */
+.jacket-consult-section {
+    padding: 80px 0 100px;
+    background: var(--bg-section);
+}
+
+.jacket-consult-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.jacket-consult-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    color: var(--text-primary);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.jacket-consult-title.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.jacket-consult-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--accent-gold);
+    margin: 1rem auto 0;
+}
+
+.jacket-consult-subtitle {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s ease 0.1s, transform 0.7s ease 0.1s;
+}
+
+.jacket-consult-subtitle.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.jacket-consult-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.jacket-consult-card {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    opacity: 0;
+    transform: translateY(25px);
+}
+
+.jacket-consult-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.jacket-consult-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-gold);
+}
+
+.jacket-consult-icon {
+    color: var(--accent-gold);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jacket-consult-card h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.jacket-consult-card p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .jacket-hero {
+        height: 45vh;
+        min-height: 300px;
+    }
+
+    .jacket-hero-cta {
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .jacket-intro-title {
+        font-size: 1.5rem;
+    }
+
+    .jacket-row-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .jacket-row-card {
+        height: 240px;
+    }
+
+    .jacket-consult-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .jacket-hero {
+        height: 35vh;
+    }
+
+    .jacket-intro-title {
+        font-size: 1.3rem;
+    }
+
+    .jacket-row-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.6rem;
+    }
+
+    .jacket-row-card {
+        height: 180px;
+    }
+
+    .jacket-versatile-title,
+    .jacket-consult-title {
+        font-size: 1.3rem;
+    }
+}

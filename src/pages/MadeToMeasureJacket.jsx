@@ -1,90 +1,134 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { CheckCircle } from 'lucide-react';
-import './MadeToMeasure.css';
+import { Link } from 'react-router-dom';
+import { Handshake, Ruler, Package } from 'lucide-react';
+import './MadeToMeasureJacket.css';
 
 const MadeToMeasureJacket = () => {
-    const steps = [
-        { num: '01', title: 'Design Brief', desc: 'Define your jacket style — blazer, sport coat, or overcoat.' },
-        { num: '02', title: 'Fabric Selection', desc: 'Choose from premium wools, tweeds, and cashmere blends.' },
-        { num: '03', title: 'Measurements', desc: 'Detailed measurements for shoulders, chest, and length.' },
-        { num: '04', title: 'Delivery', desc: 'Your bespoke jacket, delivered within 3–4 weeks.' },
+    const fadeRefs = useRef([]);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            },
+            { threshold: 0.12 }
+        );
+
+        fadeRefs.current.forEach((el) => {
+            if (el) observer.observe(el);
+        });
+
+        return () => observer.disconnect();
+    }, []);
+
+    const addRef = (el) => {
+        if (el && !fadeRefs.current.includes(el)) {
+            fadeRefs.current.push(el);
+        }
+    };
+
+    const jacketImages = [
+        'https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=500',
+        'https://images.unsplash.com/photo-1594938298596-f9fe3195ed84?auto=format&fit=crop&q=80&w=500',
+        'https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&q=80&w=500',
+        'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=500',
     ];
 
-    const features = [
-        'Structured or soft shoulder construction to match your style',
-        'Choice of patch, flap, or jetted pocket styles',
-        'Custom lining patterns and monogramming available',
-        'Hand-stitched details for a refined finish',
-        'Working cuff buttons as standard',
-        'Premium fabrics sourced from Italian and British mills',
+    const consulting = [
+        {
+            icon: <Handshake size={32} />,
+            title: 'Getting to know & Selection',
+            desc: 'At the first meeting, we take our time to understand your expectations, your style, and your wardrobe goals. Together we will discuss fabrics, colors and the perfect jacket style for you.',
+        },
+        {
+            icon: <Ruler size={32} />,
+            title: 'Precision & Individualization',
+            desc: 'With more than a dozen precise measurements, we ensure your personal fit. The shoulder line, the lapel width, the button stance — every detail is carefully adjusted to fit your body perfectly.',
+        },
+        {
+            icon: <Package size={32} />,
+            title: 'Delivery & Completion',
+            desc: 'The last fitting, every detail is checked. Every line sits, every seam falls perfectly. The jacket is impeccably finished — including a premium garment bag for perfect care and storage.',
+        },
     ];
 
     return (
-        <div className="mtm-page">
+        <div className="jacket-page">
             <Navbar />
 
-            <section className="mtm-hero">
-                <div className="mtm-hero-overlay"></div>
-                <div className="mtm-hero-content">
-                    <span className="mtm-label">Made to Measure</span>
-                    <h1 className="mtm-hero-title">
-                        Tailor-Made <span className="gold-text">Jackets</span>
-                    </h1>
-                    <p className="mtm-hero-desc">
-                        Stand out with exceptionally designed and meticulously crafted tailored jackets,
-                        built to elevate any outfit.
+            {/* Hero */}
+            <section className="jacket-hero">
+                <img
+                    src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1920"
+                    alt="Premium jackets collection"
+                    className="jacket-hero-img"
+                />
+                <div className="jacket-hero-overlay"></div>
+                <div className="jacket-hero-cta">
+                    <Link to="/booking">
+                        <button className="jacket-hero-btn">Book an Appointment</button>
+                    </Link>
+                </div>
+            </section>
+
+            {/* Intro */}
+            <section className="jacket-intro-section" ref={addRef}>
+                <div className="jacket-intro-container">
+                    <h1 className="jacket-intro-title">Focus on your individual style</h1>
+                    <p className="jacket-intro-text">
+                        We focus on the personal design of your jacket. From the finest selection of natural materials to precise cuts, our
+                        specialization lies in jackets. The details of tailoring craftsmanship create a perfect product. With us, there are elegant
+                        business looks, figures using casual and yet exclusive jackets and coats. We offer our customers advice, solutions, and the
+                        high standard to create the finest garment of your individual wardrobe.
                     </p>
                 </div>
             </section>
 
-            <section className="mtm-process-section">
-                <div className="mtm-container">
-                    <h2 className="mtm-section-title">Our <span className="gold-text">Process</span></h2>
-                    <div className="mtm-process-grid">
-                        {steps.map((s, i) => (
-                            <div className="mtm-process-step" key={i}>
-                                <div className="step-number">{s.num}</div>
-                                <h3>{s.title}</h3>
-                                <p>{s.desc}</p>
+            {/* Jacket Image Row */}
+            <section className="jacket-row-section">
+                <div className="jacket-row-grid">
+                    {jacketImages.map((src, i) => (
+                        <div className="jacket-row-card" key={i} ref={addRef} style={{ transitionDelay: `${i * 0.1}s` }}>
+                            <img src={src} alt={`Jacket style ${i + 1}`} />
+                        </div>
+                    ))}
+                </div>
+            </section>
+
+            {/* Versatility Section */}
+            <section className="jacket-versatile-section">
+                <div className="jacket-versatile-container" ref={addRef}>
+                    <h2 className="jacket-versatile-title">Versatility meets style</h2>
+                    <p className="jacket-versatile-desc">
+                        Whether ready-to-go or combined as an eye-catcher on a special occasion — the jacket is our classic that offers the
+                        widest form of expression in a wardrobe. It's casual, sophisticated, modern and elegant at the same time. Choose
+                        the perfect cut for an effortless elegance that makes you stand out, and the refined tailoring experience that is
+                        unmatched in quality and individual in its expression.
+                    </p>
+                </div>
+            </section>
+
+            {/* Consulting Concept */}
+            <section className="jacket-consult-section">
+                <div className="jacket-consult-container">
+                    <h2 className="jacket-consult-title" ref={addRef}>Our consulting concept</h2>
+                    <p className="jacket-consult-subtitle" ref={addRef}>
+                        With the modern consulting concept, we accompany you on every step from the initial idea to the finished jacket.
+                    </p>
+                    <div className="jacket-consult-grid">
+                        {consulting.map((item, i) => (
+                            <div className="jacket-consult-card" key={i} ref={addRef} style={{ transitionDelay: `${i * 0.15}s` }}>
+                                <div className="jacket-consult-icon">{item.icon}</div>
+                                <h3>{item.title}</h3>
+                                <p>{item.desc}</p>
                             </div>
                         ))}
-                    </div>
-                </div>
-            </section>
-
-            <section className="mtm-features-section">
-                <div className="mtm-container">
-                    <div className="mtm-features-grid">
-                        <div className="mtm-features-text">
-                            <h2>Why Choose Our <span className="gold-text">Jackets</span></h2>
-                            <div className="mtm-feature-list">
-                                {features.map((f, i) => (
-                                    <div className="mtm-feature-item" key={i}>
-                                        <CheckCircle size={18} className="feature-check" />
-                                        <p>{f}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                        <div className="mtm-features-image">
-                            <img 
-                                src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800" 
-                                alt="Bespoke Jacket Craftsmanship"
-                                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '6px' }}
-                            />
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="mtm-cta-section">
-                <div className="mtm-container">
-                    <div className="mtm-cta-box">
-                        <h2>Ready for Your <span className="gold-text">Perfect Jacket?</span></h2>
-                        <p>Book a consultation and let us create a jacket that speaks your style.</p>
-                        <button className="mtm-cta-btn">Book Appointment</button>
                     </div>
                 </div>
             </section>
