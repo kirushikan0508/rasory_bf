@@ -34,20 +34,7 @@ const AboutStory = () => {
             <div className="about-story-container">
                 <div className="about-story-text" ref={addRef}>
                     <p>
-                        My name is Kirushan Ragunathan, and I am your partner for made-to-measure clothing.
-                        About six years ago, my passion for fashion and customer service developed
-                        through my tailoring and design work and I built my business from the very
-                        start on a clear vision: to combine craftsmanship with modern elegance and personal
-                        advice – with a passion and skill set so extraordinary that they redefine
-                        design possibilities for men, making a lasting impression on fashion-conscious
-                        contemporaries by the finest customer service one can find in this field.
-                    </p>
-                    <p>
-                        Each of my pieces, from materials to the smallest detail, is made to measure by hand –
-                        where I want to connect the personality and style of each one in harmony with
-                        the world of fashion. Together we'll find the perfect expression for your style
-                        – authentic, quality and unique. I look forward to having you on this exciting
-                        journey of individual tailoring.
+                        My name is Roshan Yogarajah, and I am your partner for bespoke clothing. Around ten years ago, my training as a retail specialist sparked my passion for fashion and customer service, igniting my fascination with the world of fashion. Over time, I have specialized in bespoke tailoring and fabrics. I am not only captivated by the endless variety and limitless design possibilities that the bespoke clothing industry offers, but also by each individual client. Every client brings their own vision, their own combinations, their own style, and their own desires – and therein lies the beauty of my work. It is a unique journey where I strive to harmonize each individual's personality and style with the world of fashion. Together, we will find the look that makes you shine – authentic, stylish, and unique. There are no limits – only your own creativity and imagination determine the result.
                     </p>
                 </div>
                 <div className="about-story-image" ref={addRef}>
