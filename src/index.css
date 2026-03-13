@@ -51,6 +51,7 @@ button {
   background: none;
   font-family: inherit;
   transition: var(--transition-smooth);
+  border-radius: var(--btn-radius);
 }
 
 ul {

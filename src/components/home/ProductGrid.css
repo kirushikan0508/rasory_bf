@@ -89,7 +89,7 @@
     background: transparent;
     color: var(--text-primary);
     border: 1px solid rgba(255, 255, 255, 0.8);
-    border-radius: 50px;
+    border-radius: var(--btn-radius);
     font-size: 0.7rem;
     font-weight: 600;
     text-transform: uppercase;

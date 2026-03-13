@@ -21,7 +21,7 @@
     text-transform: uppercase;
     letter-spacing: 0.2em;
     cursor: pointer;
-    border-radius: 0;
+    border-radius: var(--btn-radius);
     font-weight: 600;
     transition: all 0.3s ease;
 }
