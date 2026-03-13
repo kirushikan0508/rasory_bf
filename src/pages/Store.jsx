@@ -45,7 +45,8 @@ const Store = () => {
                 subtitle="Rasory Bern"
                 description="Step into our world of elegance. Experience the perfect blend of traditional craftsmanship and modern luxury in the heart of Bern."
                 imageSrc="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1920"
-                secondaryBtnText="Find Location"
+                // secondaryBtnText="Find Location"
+                showActions={false}
             />
 
             {/* Store Info + Image Grid */}

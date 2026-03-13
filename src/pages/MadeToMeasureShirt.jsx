@@ -22,6 +22,7 @@ const MadeToMeasureShirt = () => {
                 subtitle="Premium Tailor-Made Shirts"
                 description="From fabric selection to the final stitch, our custom shirts are crafted to provide unparalleled comfort and style."
                 imageSrc="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&q=80&w=1920"
+                showActions={false}
             />
             <ShirtIntro />
             <Grid />

@@ -10,6 +10,8 @@ import JacketConsult from '../components/madetomeasure/jackets/JacketConsult';
 import Grid from '../components/madetomeasure/jackets/GridImage';
 import Hero from '../components/ui/Hero';
 
+import heroimage from "../assets/jacket hero.png";
+
 import './MadeToMeasureJacket.css';
 
 const MadeToMeasureJacket = () => {
@@ -20,7 +22,8 @@ const MadeToMeasureJacket = () => {
                 title="Crafted for the Modern Gentleman"
                 subtitle="Bespoke Jackets & Blazers"
                 description="Experience the pinnacle of sartorial elegance with our custom-tailored jackets, designed to enhance your presence."
-                imageSrc="https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=2000"
+                imageSrc={heroimage}
+                showActions={false}
             />
             <JacketIntro />
             <Grid />

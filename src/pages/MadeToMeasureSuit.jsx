@@ -24,6 +24,7 @@ const MadeToMeasureSuit = () => {
                 subtitle="Exquisite Two & Three Piece Suits"
                 description="Masterfully crafted bespoke suits that embody your personal success and uncompromising standards of quality."
                 imageSrc="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=1920"
+                showActions={false}
             />
             <SuitIntro />
             <SuitStoreStrip />

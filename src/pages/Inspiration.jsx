@@ -17,7 +17,8 @@ const Inspiration = () => {
                 subtitle="Curated Style & Visuals"
                 description="Explore our gallery of classic and contemporary looks to find the perfect inspiration for your next bespoke creation."
                 imageSrc="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1920"
-                secondaryBtnText="See Gallery"
+                // secondaryBtnText="See Gallery"
+                showActions={false}
             />
             <InspirationTitle />
             <InspirationGallery />

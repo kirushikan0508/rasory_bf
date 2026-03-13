@@ -6,6 +6,8 @@ import price01 from "../assets/Preislisten/Rasory  Preislisten 01.jpg";
 import price02 from "../assets/Preislisten/Rasory  Preislisten 02.jpg";
 import price03 from "../assets/Event Home Page Massanzuge/Rasory Event and Massanzuge-03.jpg";
 
+import pricehero from "../assets/price-hero.png";
+
 
 import Hero from '../components/ui/Hero';
 
@@ -54,8 +56,9 @@ const PriceList = () => {
                 title="Elegance & Quality at a Fair Price"
                 subtitle="Rasory Value"
                 description="First-class fabrics and expert tailoring shouldn't be out of reach. Discover our transparent pricing for bespoke creations."
-                imageSrc="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&q=80&w=1920"
+                imageSrc={pricehero}
                 secondaryBtnText="See Price List"
+                showActions={false}
             />
 
             {/* Price Details Section */}

@@ -10,6 +10,8 @@ import TrouserStrip from '../components/madetomeasure/trousers/TrouserStrip';
 import TrouserConsult from '../components/madetomeasure/trousers/TrouserConsult';
 import Grid from '../components/madetomeasure/trousers/GridImage';
 
+import panthero from "../assets/trouser-hero.png";
+
 import './MadeToMeasureTrouser.css';
 
 const MadeToMeasureTrouser = () => {
@@ -20,7 +22,8 @@ const MadeToMeasureTrouser = () => {
                 title="Precision in Every Fold"
                 subtitle="Custom Tailored Trousers"
                 description="Experience perfect fit and unmatched comfort with our bespoke trousers, tailored to your exact measurements and preference."
-                imageSrc="https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=2000"
+                imageSrc={panthero}
+                showActions={false}
             />
             <TrouserIntro />
             <Grid />

@@ -19,7 +19,8 @@ const AboutUs = () => {
                 subtitle="The Rasory Story"
                 description="Discover the passion, heritage, and uncompromising craftsmanship behind our bespoke tailoring."
                 imageSrc={hero}
-                secondaryBtnText="Meet the Tailor"
+                showActions={false}
+                // secondaryBtnText="Meet the Tailor"
             />
             <AboutStory />
             <AboutStrip />
