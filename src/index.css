@@ -10,6 +10,7 @@
 }
 
 section {
+  margin-top: 0px;
   margin-bottom: 80px;
 }
 
@@ -104,5 +105,12 @@ img {
 
   .premium-container {
     padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    margin-top: 0px;
+    margin-bottom: 24px;
   }
 }

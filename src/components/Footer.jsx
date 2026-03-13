@@ -53,15 +53,15 @@ const Footer = () => {
                         <ul className="footer-contact-list">
                             <li>
                                 <MapPin size={16} className="footer-contact-icon" />
-                                <span>123 Luxury Lane, Fashion District,<br />New York, NY 10012</span>
+                                <span>Waaghaus-Passage 8<br />3011 Bern</span>
                             </li>
                             <li>
                                 <Phone size={16} className="footer-contact-icon" />
-                                <span>+1 (555) 123-4567</span>
+                                <span>+41 78 312 41 88</span>
                             </li>
                             <li>
                                 <Mail size={16} className="footer-contact-icon" />
-                                <span>contact@rasory.com</span>
+                                <span>store@rasory.ch</span>
                             </li>
                         </ul>
                     </div>
