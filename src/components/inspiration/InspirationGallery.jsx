@@ -40,11 +40,11 @@ const InspirationGallery = () => {
     };
 
         const galleryImages = [
-           { src: gallery1, alt: "Rasory Inspiration 01", size: "tall" },
+           { src: gallery5, alt: "Rasory Inspiration 01", size: "tall" },
            { src: gallery2, alt: "Rasory Inspiration 02", size: "normal" },
            { src: gallery3, alt: "Rasory Inspiration 03", size: "wide" },
            { src: gallery4, alt: "Rasory Inspiration 04", size: "normal" },
-           { src: gallery5, alt: "Rasory Inspiration 05", size: "tall" },
+           { src: gallery1, alt: "Rasory Inspiration 05", size: "tall" },
            { src: gallery6, alt: "Rasory Inspiration 06", size: "normal" },
            { src: gallery7, alt: "Rasory Inspiration 07", size: "normal" },
            { src: gallery8, alt: "Rasory Inspiration 08", size: "normal" },

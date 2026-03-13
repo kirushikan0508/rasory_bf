@@ -1,4 +1,7 @@
 import React, { useEffect, useRef } from 'react';
+import leftimg from "../../../assets/MASSKLEIDUNG/suits/Rasory Massanzuge 03.jpg";
+import centerimg from "../../../assets/MASSKLEIDUNG/suits/Rasory Massanzuge 04.jpg";
+import rightimg from "../../../assets/MASSKLEIDUNG/suits/Rasory Massanzuge 11.jpg";
 import './SuitRow.css';
 
 const SuitRow = () => {
@@ -30,9 +33,9 @@ const SuitRow = () => {
     };
 
     const suitImages = [
-        'https://images.unsplash.com/photo-1617130608344-33a92806ecd3?auto=format&fit=crop&q=80&w=600',
-        'https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=600',
-        'https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=600',
+        leftimg,
+        centerimg,
+        rightimg
     ];
 
     return (

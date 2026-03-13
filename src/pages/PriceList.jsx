@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import './PriceList.css';
 import price01 from "../assets/Preislisten/Rasory  Preislisten 01.jpg";
 import price02 from "../assets/Preislisten/Rasory  Preislisten 02.jpg";
-import price03 from "../assets/Preislisten/Rasory  Preislisten 03.jpg";
+import price03 from "../assets/Event Home Page Massanzuge/Rasory Event and Massanzuge-03.jpg";
 
 
 import Hero from '../components/ui/Hero';

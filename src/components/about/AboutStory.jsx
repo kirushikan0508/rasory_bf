@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import img from "../../assets/Event Home Page Massanzuge/Rasory Event and Massanzuge-06.jpg"
 import './AboutStory.css';
 
 const AboutStory = () => {
@@ -39,7 +40,7 @@ const AboutStory = () => {
                 </div>
                 <div className="about-story-image" ref={addRef}>
                     <img
-                        src="https://images.unsplash.com/photo-1594938298596-f9fe3195ed84?auto=format&fit=crop&q=80&w=700"
+                        src={img}
                         alt="Bespoke shirt craftsmanship"
                     />
                 </div>

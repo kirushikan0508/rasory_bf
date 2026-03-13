@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { MapPin, CalendarCheck, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import imgmain from "../assets/Preislisten/Rasory  Preislisten 01.jpg"
 import './Store.css';
 
 import Hero from '../components/ui/Hero';
@@ -105,7 +106,7 @@ const Store = () => {
                         <div className="store-img-grid">
                             <div className="store-img-card store-img-tall">
                                 <img
-                                    src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=800"
+                                    src={imgmain}
                                     alt="Tailor measuring client"
                                 />
                             </div>

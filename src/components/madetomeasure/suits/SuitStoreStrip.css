@@ -2,11 +2,11 @@
 .suit-store-strip {
     position: relative;
     width: 100%;
-    height: 40vh;
-    min-height: 260px;
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
     overflow: hidden;
 }
-
 .suit-store-img {
     width: 100%;
     height: 100%;

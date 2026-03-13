@@ -1,4 +1,5 @@
 import React from 'react';
+import img from "../../../assets/MASSKLEIDUNG/suits/Rasory Massanzuge 08.jpg";
 import './SuitStoreStrip.css';
 
 const SuitStoreStrip = () => {

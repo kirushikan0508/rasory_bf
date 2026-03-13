@@ -1,7 +1,7 @@
 /* ===== Quote Section ===== */
 .about-quote-section {
     padding: 60px 0 80px;
-    background: var(--bg-section);
+    background: var(--bg-primary);
 }
 
 .about-quote-container {

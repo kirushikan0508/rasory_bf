@@ -6,6 +6,8 @@ import AboutStrip from '../components/about/AboutStrip';
 import AboutValues from '../components/about/AboutValues';
 import AboutQuote from '../components/about/AboutQuote';
 import Hero from '../components/ui/Hero';
+
+import hero from "../assets/about-hero.png"
 import './AboutUs.css';
 
 const AboutUs = () => {
@@ -16,7 +18,7 @@ const AboutUs = () => {
                 title="Our Legacy of Elegance"
                 subtitle="The Rasory Story"
                 description="Discover the passion, heritage, and uncompromising craftsmanship behind our bespoke tailoring."
-                imageSrc="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&q=80&w=1920"
+                imageSrc={hero}
                 secondaryBtnText="Meet the Tailor"
             />
             <AboutStory />

@@ -1,6 +1,7 @@
 /* ===== Values Section ===== */
 .about-values-section {
     padding: 80px 0 100px;
+    background: var(--bg-section);
 }
 
 .about-values-container {

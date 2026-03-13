@@ -7,6 +7,7 @@ import JacketIntro from '../components/madetomeasure/jackets/JacketIntro';
 import JacketRow from '../components/madetomeasure/jackets/JacketRow';
 import JacketVersatile from '../components/madetomeasure/jackets/JacketVersatile';
 import JacketConsult from '../components/madetomeasure/jackets/JacketConsult';
+import Grid from '../components/madetomeasure/jackets/GridImage';
 import Hero from '../components/ui/Hero';
 
 import './MadeToMeasureJacket.css';
@@ -22,7 +23,7 @@ const MadeToMeasureJacket = () => {
                 imageSrc="https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=2000"
             />
             <JacketIntro />
-            <JacketRow />
+            <Grid />
             <JacketVersatile />
             <JacketConsult />
             <Footer />
