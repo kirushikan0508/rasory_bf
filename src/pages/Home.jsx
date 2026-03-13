@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Introduction from '../components/home/Introduction';
 import ProductGrid from '../components/home/ProductGrid';
 import QuoteSection from '../components/home/QuoteSection';
 import MaterialsSection from '../components/home/MaterialsSection';
 import ConsultingSection from '../components/home/ConsultingSection';
 import Footer from '../components/Footer';
 import Hero from '../components/ui/Hero';
+
+import Sample from '../components/home/Introduction'
 
 function Home() {
     return (
@@ -19,10 +20,11 @@ function Home() {
                     videoSrc="https://cdn.pixabay.com/video/2024/03/29/206029_large.mp4"
                     imageSrc="https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=2000"
                 />
-                <Introduction />
+                <Sample />
                 <ProductGrid />
                 <QuoteSection />
                 <MaterialsSection />
+                <Sample />
                 <ConsultingSection />
             </main>
             <Footer />
