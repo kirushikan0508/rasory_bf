@@ -5,6 +5,8 @@ import { MapPin, CalendarCheck, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import './Store.css';
 
+import Hero from '../components/ui/Hero';
+
 const Store = () => {
     const fadeRefs = useRef([]);
 
@@ -37,20 +39,13 @@ const Store = () => {
         <div className="store-page">
             <Navbar />
 
-            {/* Full-Width Hero Banner */}
-            <section className="store-hero">
-                <img
-                    src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1920"
-                    alt="Rasory Store Interior"
-                    className="store-hero-img"
-                />
-                <div className="store-hero-overlay"></div>
-                {/* <div className="store-hero-cta">
-                    <Link to="/booking">
-                        <button className="store-hero-btn">Book An Appointment</button>
-                    </Link>
-                </div> */}
-            </section>
+            <Hero 
+                title="Our Flagship Store"
+                subtitle="Rasory Bern"
+                description="Step into our world of elegance. Experience the perfect blend of traditional craftsmanship and modern luxury in the heart of Bern."
+                imageSrc="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1920"
+                secondaryBtnText="Find Location"
+            />
 
             {/* Store Info + Image Grid */}
             <section className="store-details-section">

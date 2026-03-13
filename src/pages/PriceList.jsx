@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import './PriceList.css';
 
+import Hero from '../components/ui/Hero';
+
 const PriceList = () => {
     const fadeRefs = useRef([]);
 
@@ -44,15 +46,13 @@ const PriceList = () => {
         <div className="pricelist-page">
             <Navbar />
 
-            {/* Full-Width Hero Banner */}
-            <section className="price-hero">
-                <img
-                    src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&q=80&w=1920"
-                    alt="Premium fabrics and materials"
-                    className="price-hero-img"
-                />
-                <div className="price-hero-overlay"></div>
-            </section>
+            <Hero 
+                title="Elegance & Quality at a Fair Price"
+                subtitle="Rasory Value"
+                description="First-class fabrics and expert tailoring shouldn't be out of reach. Discover our transparent pricing for bespoke creations."
+                imageSrc="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&q=80&w=1920"
+                secondaryBtnText="See Price List"
+            />
 
             {/* Price Details Section */}
             <section className="price-details-section">
