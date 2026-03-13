@@ -70,7 +70,7 @@
 
 /* Process Section */
 .mtm-process-section {
-    padding: 100px 0;
+    padding: 100px 0 0;
 }
 
 .mtm-process-grid {
@@ -124,7 +124,7 @@
 
 /* Features Section */
 .mtm-features-section {
-    padding: 80px 0 100px;
+    padding: 80px 0 0;
     background: var(--bg-section);
 }
 
@@ -193,7 +193,7 @@
 
 /* CTA Section */
 .mtm-cta-section {
-    padding: 80px 0;
+    padding: 80px 0 0;
     text-align: center;
 }
 
@@ -247,7 +247,7 @@
     }
 
     .mtm-process-section {
-        padding: 60px 0;
+        padding: 60px 0 0;
     }
 
     .mtm-process-grid {
@@ -259,7 +259,7 @@
     }
 
     .mtm-features-section {
-        padding: 60px 0 80px;
+        padding: 60px 0 0;
     }
 
     .mtm-features-image {
@@ -267,7 +267,7 @@
     }
 
     .mtm-cta-section {
-        padding: 60px 0;
+        padding: 60px 0 0;
     }
 }
 

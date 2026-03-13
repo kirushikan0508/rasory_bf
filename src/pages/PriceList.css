@@ -35,7 +35,7 @@
 
 /* ===== Price Details Section ===== */
 .price-details-section {
-    padding: 80px 0 100px;
+    padding: 80px 0 0;
 }
 
 .price-details-container {
@@ -158,9 +158,8 @@
 .price-img-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     gap: 1rem;
-    min-height: 550px;
 }
 
 .price-img-card {
@@ -230,7 +229,7 @@
     }
 
     .price-details-section {
-        padding: 50px 0 70px;
+        padding: 50px 0 0;
     }
 
     .price-img-grid {
