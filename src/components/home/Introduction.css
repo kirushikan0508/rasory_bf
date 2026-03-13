@@ -25,6 +25,7 @@
     width: 75%;
     aspect-ratio: 4/5;
     z-index: 1;
+    height: 610px;
 }
 
 .small-img {
@@ -136,4 +137,4 @@
     .intro-image-container {
         padding-bottom: 2rem;
     }
-}
+}

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import imgtop from "../../assets/Event Home Page Massanzuge/Rasory Event and Massanzuge-02.jpg"
+import imgdown from "../../assets/Event Home Page Massanzuge/Rasory Event and Massanzuge-03.jpg"
 import './Introduction.css';
 
 const Introduction = () => {
@@ -21,10 +23,10 @@ const Introduction = () => {
                         className="intro-image-container"
                     >
                         <div className="image-wrapper main-img">
-                            <img src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=800" alt="Tailor measuring client" />
+                            <img src={imgtop} alt="Tailor measuring client" />
                         </div>
                         <div className="image-wrapper small-img">
-                            <img src="https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=600" alt="Bespoke suit on mannequin" />
+                            <img src={imgdown} alt="Bespoke suit on mannequin" />
                         </div>
                     </motion.div>
 

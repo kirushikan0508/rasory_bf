@@ -1,30 +1,34 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import suits from "../../assets/MASSKLEIDUNG/suits/Rasory Massanzuge 06 HOME.jpg"
+import shirts from "../../assets/MASSKLEIDUNG/shirts/Rasory Masshemd 06 HOME.jpg"
+import pants from "../../assets/MASSKLEIDUNG/pants/Rasory Masshose 04 HOME.jpg"
+import jacket from "../../assets/MASSKLEIDUNG/jacket/Rasory Masssako 01 HOME.jpg"
 import './ProductGrid.css';
 
 const products = [
     {
         subtitle: "Elegance that inspires",
         buttonText: "TAILOR-MADE SUITS",
-        image: "https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=800",
+        image: suits,
         link: "/made-to-measure/suit"
     },
     {
         subtitle: "Feels like a second skin",
         buttonText: "MADE-TO-MEASURE SHIRTS",
-        image: "https://images.unsplash.com/photo-1603251578711-3290ca1a0187?auto=format&fit=crop&q=80&w=800",
+        image: shirts,
         link: "/made-to-measure/shirt"
     },
     {
         subtitle: "Comfort and elegance made to measure",
         buttonText: "TAILOR-MADE TROUSERS",
-        image: "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=800",
+        image: pants,
         link: "/made-to-measure/trouser"
     },
     {
         subtitle: "Focus on your individual style",
         buttonText: "MADE-TO-MEASURE JACKET",
-        image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800",
+        image: jacket,
         link: "/made-to-measure/jacket"
     }
 ];

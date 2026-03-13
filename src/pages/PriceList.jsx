@@ -2,6 +2,10 @@ import React, { useEffect, useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import './PriceList.css';
+import price01 from "../assets/Preislisten/Rasory  Preislisten 01.jpg";
+import price02 from "../assets/Preislisten/Rasory  Preislisten 02.jpg";
+import price03 from "../assets/Preislisten/Rasory  Preislisten 03.jpg";
+
 
 import Hero from '../components/ui/Hero';
 
@@ -100,19 +104,19 @@ const PriceList = () => {
                         <div className="price-img-grid">
                             <div className="price-img-card price-img-top-left">
                                 <img
-                                    src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=600"
+                                    src={price01}
                                     alt="Tailor fitting a suit"
                                 />
                             </div>
                             <div className="price-img-card price-img-top-right">
                                 <img
-                                    src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&q=80&w=600"
+                                    src={price02}
                                     alt="Gentleman in tailored suit"
                                 />
                             </div>
                             <div className="price-img-card price-img-bottom">
                                 <img
-                                    src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600"
+                                    src={price03}
                                     alt="Premium suit style"
                                 />
                             </div>
