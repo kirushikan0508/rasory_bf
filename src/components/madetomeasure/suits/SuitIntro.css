@@ -12,10 +12,10 @@
 }
 
 .suit-intro-container {
-    max-width: 750px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 2rem;
-    text-align: left;
+    text-align: center;
 }
 
 .suit-intro-title {

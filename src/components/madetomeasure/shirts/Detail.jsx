@@ -24,7 +24,7 @@ const Detail = () => {
 
   return (
     <section className="shirt-detail-section">
-      <motion.div 
+      <motion.div
         className="shirt-detail-header"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -37,7 +37,7 @@ const Detail = () => {
 
       <div className="shirt-detail-grid">
         {steps.map((step, index) => (
-          <motion.div 
+          <motion.div
             key={index}
             className="shirt-detail-item"
             initial={{ opacity: 0, y: 40 }}

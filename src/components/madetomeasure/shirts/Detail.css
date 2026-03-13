@@ -4,6 +4,8 @@
     padding: 100px 4rem;
     background-color: var(--bg-primary);
     text-align: center;
+
+
 }
 
 .shirt-detail-header {
@@ -44,8 +46,8 @@
 }
 
 .shirt-detail-icon-wrapper {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background-color: #171717;
     border-radius: 50%;
     display: flex;
@@ -84,7 +86,7 @@
     .shirt-detail-section {
         padding: 80px 2rem;
     }
-    
+
     .shirt-detail-grid {
         gap: 40px;
     }
@@ -94,16 +96,16 @@
     .shirt-detail-section {
         padding: 60px 1.5rem;
     }
-    
+
     .shirt-detail-header h2 {
         font-size: 2.2rem;
     }
-    
+
     .shirt-detail-grid {
         grid-template-columns: 1fr;
         gap: 50px;
     }
-    
+
     .shirt-detail-header {
         margin-bottom: 50px;
     }

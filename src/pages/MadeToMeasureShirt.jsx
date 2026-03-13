@@ -17,7 +17,7 @@ const MadeToMeasureShirt = () => {
     return (
         <div className="shirt-page">
             <Navbar />
-            <Hero 
+            <Hero
                 title="The Perfect Fit, Redefined"
                 subtitle="Premium Tailor-Made Shirts"
                 description="From fabric selection to the final stitch, our custom shirts are crafted to provide unparalleled comfort and style."
@@ -27,7 +27,7 @@ const MadeToMeasureShirt = () => {
             <ShirtRow />
             <Fabric />
             <ShirtPersonal />
-            <ShirtConsult />
+            {/* <ShirtConsult /> */}
             <Detail />
             <Footer />
         </div>
