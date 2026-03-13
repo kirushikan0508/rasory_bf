@@ -1,5 +1,5 @@
 import React from 'react';
-import './SuitFabrics.css';
+import './ShirtFabric.css';
 
 import reda from "../../../assets/download.jpg";
 

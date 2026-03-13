@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap');
+
+.shirt-detail-section {
+    padding: 100px 4rem;
+    background-color: var(--bg-primary);
+    text-align: center;
+}
+
+.shirt-detail-header {
+    margin-bottom: 80px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shirt-detail-header h2 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.shirt-detail-header p {
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+
+.shirt-detail-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.shirt-detail-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.shirt-detail-icon-wrapper {
+    width: 100px;
+    height: 100px;
+    background-color: #171717;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--text-primary);
+    transition: var(--transition-smooth);
+    border: 1px solid var(--border-subtle);
+}
+
+.shirt-detail-item:hover .shirt-detail-icon-wrapper {
+    background-color: var(--accent-gold);
+    color: #000;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(198, 167, 94, 0.2);
+}
+
+.shirt-detail-item h3 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    color: var(--text-primary);
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.shirt-detail-item p {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+    .shirt-detail-section {
+        padding: 80px 2rem;
+    }
+    
+    .shirt-detail-grid {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .shirt-detail-section {
+        padding: 60px 1.5rem;
+    }
+    
+    .shirt-detail-header h2 {
+        font-size: 2.2rem;
+    }
+    
+    .shirt-detail-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    
+    .shirt-detail-header {
+        margin-bottom: 50px;
+    }
+}

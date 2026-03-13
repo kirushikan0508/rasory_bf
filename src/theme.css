@@ -9,8 +9,8 @@
     --accent-gold-light: #E6C98F;
 
     /* Retain existing utility variables */
-    --font-heading: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Poppins', sans-serif;
     --transition-smooth: 300ms ease;
     --shadow-soft: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
     --border-radius-xl: 1rem;
