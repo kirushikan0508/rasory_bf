@@ -2,7 +2,7 @@
 
 .trousers-grid-section {
   width: 100%;
-  padding: 4rem 2rem;
+  /* padding: 4rem 2rem; */
   background-color: var(--bg-primary, #0F0F0F); /* Theme background */
   display: flex;
   justify-content: center;
