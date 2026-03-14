@@ -236,7 +236,7 @@
         min-height: 350px;
     }
 }
-
+/* 
 @media (max-width: 480px) {
     .price-hero {
         height: 32vh;
@@ -262,6 +262,38 @@
 
     .price-img-card {
         height: 200px;
+    }
+
+    .price-items-list {
+        gap: 0.8rem;
+    }
+} */
+
+@media (max-width: 480px) {
+    .price-hero {
+        height: 32vh;
+        min-height: 200px;
+    }
+
+    .price-main-title {
+        font-size: 1.4rem;
+    }
+
+    /* Keep the grid structure intact */
+    .price-img-grid {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; /* Ensures 2 columns stay */
+        gap: 0.5rem; /* Shrink gap slightly for small screens */
+    }
+
+    /* Preserve the specific placements */
+    .price-img-top-left,
+    .price-img-top-right {
+        height: 250px; /* Reduced height so it fits mobile screens better */
+    }
+
+    .price-img-bottom {
+        height: 150px; /* Reduced height for the wide bottom image */
     }
 
     .price-items-list {

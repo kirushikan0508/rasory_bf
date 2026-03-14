@@ -4,6 +4,8 @@ import Footer from '../components/Footer';
 import { MapPin, CalendarCheck, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import imgmain from "../assets/Preislisten/Rasory  Preislisten 01.jpg"
+import imgleft1 from "../assets/Event Home Page Massanzuge/Rasory Event and Massanzuge-01.jpg";
+import imgright from "../assets/Event Home Page Massanzuge/Rasory Event and Massanzuge-03.jpg";
 import './Store.css';
 
 import Hero from '../components/ui/Hero';
@@ -113,13 +115,13 @@ const Store = () => {
                             </div>
                             <div className="store-img-card store-img-top-right">
                                 <img
-                                    src="https://images.unsplash.com/photo-1621072156002-e2fcced0b170?auto=format&fit=crop&q=80&w=600"
+                                    src={imgleft1}
                                     alt="Pinstripe suit on mannequin"
                                 />
                             </div>
                             <div className="store-img-card store-img-bottom-right">
                                 <img
-                                    src="https://images.unsplash.com/photo-1520004481444-1660c392c101?auto=format&fit=crop&q=80&w=600"
+                                    src={imgright}
                                     alt="Fabrics on hangers"
                                 />
                             </div>
