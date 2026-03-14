@@ -79,7 +79,10 @@ const Hero = ({
                         transition={{ duration: 0.8, delay: 0.8 }}
                         className="hero-actions"
                     >
-                        <button className="btn-primary glow-effect" onClick={onPrimaryClick}>
+                        <button 
+                            className="btn-primary glow-effect" 
+                            onClick={onPrimaryClick || (() => window.open('https://calendly.com/rasorybooking', '_blank', 'noopener,noreferrer'))}
+                        >
                             {primaryBtnText}
                         </button>
                         <button className="btn-secondary glow-effect" onClick={onSecondaryClick}>

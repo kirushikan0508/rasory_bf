@@ -98,7 +98,12 @@ const Navbar = () => {
 
                 <div className="navbar-actions desktop-only">
                     {/* <ThemeToggle /> */}
-                    <button className="cta-button">Book Appointment</button>
+                    <button 
+                        className="cta-button" 
+                        onClick={() => window.open('https://calendly.com/rasorybooking', '_blank', 'noopener,noreferrer')}
+                    >
+                        Book Appointment
+                    </button>
                 </div>
 
                 {/* Mobile Toggle */}
@@ -151,7 +156,13 @@ const Navbar = () => {
                                 </li>
                             ))}
                             <li>
-                                <button className="cta-button mobile-cta" onClick={toggleMobileMenu}>
+                                <button 
+                                    className="cta-button mobile-cta" 
+                                    onClick={() => {
+                                        toggleMobileMenu();
+                                        window.open('https://calendly.com/rasorybooking', '_blank', 'noopener,noreferrer');
+                                    }}
+                                >
                                     Book Appointment
                                 </button>
                             </li>

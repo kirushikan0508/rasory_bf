@@ -10,11 +10,13 @@ import MadeToMeasureTrouser from './pages/MadeToMeasureTrouser';
 import MadeToMeasureSuit from './pages/MadeToMeasureSuit';
 import MadeToMeasureJacket from './pages/MadeToMeasureJacket';
 import ScrollToTop from './components/ScrollToTop';
+import FloatingBookingButton from './components/ui/FloatingBookingButton';
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
+      {/* <FloatingBookingButton /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />

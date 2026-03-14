@@ -1,0 +1,87 @@
+/* FloatingBookingButton.css */
+
+.floating-booking-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--accent-gold, #c6a75e);
+    color: #111111;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 24px;
+    font-family: var(--font-body, 'Inter', sans-serif);
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+                box-shadow 0.3s ease, 
+                background-color 0.3s ease;
+}
+
+.floating-booking-text {
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.floating-booking-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-booking-btn:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    background-color: var(--accent-gold-light, #e6c98f);
+}
+
+.floating-booking-btn:active {
+    transform: translateY(2px) scale(0.98);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .floating-booking-btn {
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 18px;
+        border-radius: 30px;
+    }
+    
+    .floating-booking-text {
+        font-size: 0.85rem;
+    }
+    
+    .floating-booking-icon svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .floating-booking-btn {
+        /* On very small screens, maybe make it just an icon or smaller */
+        padding: 12px;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .floating-booking-text {
+        display: none; /* Hide text on very small screens to save space */
+    }
+    
+    .floating-booking-icon {
+        margin: 0;
+    }
+    
+    .floating-booking-icon svg {
+        width: 22px;
+        height: 22px;
+    }
+}
