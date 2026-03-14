@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import suits from "../../assets/MASSKLEIDUNG/suits/Rasory Massanzuge 06 HOME.jpg"
 import shirts from "../../assets/MASSKLEIDUNG/shirts/Rasory Masshemd 06 HOME.jpg"
 import pants from "../../assets/MASSKLEIDUNG/pants/Rasory Masshose 04 HOME.jpg"
@@ -57,19 +58,20 @@ const ProductGrid = () => {
                             whileInView={{ opacity: 1, x: 0 }} // Corrected horizontal movement if needed, or kept consistent
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="product-card"
                         >
-                            <div className="card-image-wrapper">
-                                <img src={product.image} alt={product.buttonText} />
-                                <div className="card-overlay"></div>
-                            </div>
+                            <Link to={product.link} className="product-card" style={{ display: 'block', textDecoration: 'none' }}>
+                                <div className="card-image-wrapper">
+                                    <img src={product.image} alt={product.buttonText} />
+                                    <div className="card-overlay"></div>
+                                </div>
 
-                            <div className="card-content">
-                                <h3 className="card-subtitle">{product.subtitle}</h3>
-                                <button className="pill-btn">
-                                    {product.buttonText}
-                                </button>
-                            </div>
+                                <div className="card-content">
+                                    <h3 className="card-subtitle">{product.subtitle}</h3>
+                                    <button className="pill-btn">
+                                        {product.buttonText}
+                                    </button>
+                                </div>
+                            </Link>
                         </motion.div>
                     ))}
                 </div>

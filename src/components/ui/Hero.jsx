@@ -10,7 +10,7 @@ const Hero = ({
     imageSrc, 
     showActions = true, 
     primaryBtnText = "Book Appointment", 
-    secondaryBtnText = "Explore Collection",
+    secondaryBtnText = "Learn More",
     onPrimaryClick,
     onSecondaryClick
 }) => {
@@ -85,7 +85,10 @@ const Hero = ({
                         >
                             {primaryBtnText}
                         </button>
-                        <button className="btn-secondary glow-effect" onClick={onSecondaryClick}>
+                        <button 
+                            className="btn-secondary glow-effect" 
+                            onClick={onSecondaryClick || (() => window.location.href = '/about')}
+                        >
                             {secondaryBtnText}
                         </button>
                     </motion.div>
