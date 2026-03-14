@@ -1,5 +1,6 @@
 .product-grid {
     background-color: var(--bg-primary);
+    padding: 0px;
 }
 
 .section-header {

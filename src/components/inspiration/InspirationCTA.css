@@ -1,7 +1,7 @@
 /* ===== CTA Section ===== */
 .insp-cta-section {
     text-align: center;
-    padding: 20px 2rem 80px;
+    padding: 0px 2rem;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.8s ease, transform 0.8s ease;

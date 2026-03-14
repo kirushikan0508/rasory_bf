@@ -32,7 +32,7 @@ const Sample = () => {
     }, []);
 
     return (
-        <section className="sample-section" ref={observerRef}>
+        <section className="section sample-section" ref={observerRef}>
             <div className="sample-container">
                 <div className="sample-grid">
                     

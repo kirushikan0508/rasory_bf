@@ -1,6 +1,6 @@
 /* ===== Quote Section ===== */
 .about-quote-section {
-    padding: 60px 0 0;
+    /* padding: 60px 0 0; */
     background: var(--bg-primary);
 }
 

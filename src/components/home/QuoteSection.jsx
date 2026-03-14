@@ -4,7 +4,7 @@ import './QuoteSection.css';
 
 const QuoteSection = () => {
     return (
-        <section className="quote-section">
+        <section className="section quote-section">
             <div className="quote-parallax-bg"></div>
             <div className="quote-overlay"></div>
 

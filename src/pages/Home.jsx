@@ -24,7 +24,6 @@ function Home() {
                 <ProductGrid />
                 <QuoteSection />
                 <MaterialsSection />
-                <Sample />
                 <ConsultingSection />
             </main>
             <Footer />
