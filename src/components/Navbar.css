@@ -38,6 +38,14 @@
     letter-spacing: 0.15em;
     font-weight: 600;
     color: var(--text-primary);
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo-img {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
 }
 
 .nav-links {
@@ -81,7 +89,8 @@
 
 li.has-dropdown {
     position: relative;
-    padding-bottom: 20px; /* Expands hover area to bridge gap */
+    padding-bottom: 20px;
+    /* Expands hover area to bridge gap */
     margin-bottom: -20px;
 }
 
@@ -99,7 +108,8 @@ li.has-dropdown:hover .dropdown-icon {
     top: 100%;
     left: 50%;
     transform: translateX(-50%) !important;
-    background: #ffffff; /* White background as requested */
+    background: #ffffff;
+    /* White background as requested */
     width: 250px;
     border-radius: 6px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
@@ -128,7 +138,8 @@ li.has-dropdown:hover .dropdown-icon {
     display: block;
     padding: 1rem 1.5rem;
     font-size: 0.85rem;
-    color: #333333; /* Dark text for white background */
+    color: #333333;
+    /* Dark text for white background */
     text-align: center;
     transition: background-color 0.2s ease, color 0.2s ease;
 }

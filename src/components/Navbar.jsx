@@ -4,6 +4,7 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 // import { useTheme } from '../context/ThemeContext';
 // import ThemeToggle from './ui/ThemeToggle';
 import { Link } from 'react-router-dom';
+import logoSvg from '../assets/Rasory And Fabric Logo - LK/Rasory Logo-01.svg';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-// const { theme } = useTheme();
+    // const { theme } = useTheme();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -46,7 +47,9 @@ const Navbar = () => {
         <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
             <div className="navbar-container">
                 <div className="logo-container">
-                    <Link to="/" className="logo">RASORY</Link>
+                    <Link to="/" className="logo">
+                        <img src={logoSvg} alt="RASORY" className="navbar-logo-img" />
+                    </Link>
                 </div>
 
                 {/* Desktop Menu */}
@@ -98,8 +101,8 @@ const Navbar = () => {
 
                 <div className="navbar-actions desktop-only">
                     {/* <ThemeToggle /> */}
-                    <button 
-                        className="cta-button" 
+                    <button
+                        className="cta-button"
                         onClick={() => window.open('https://calendly.com/rasorybooking', '_blank', 'noopener,noreferrer')}
                     >
                         Book Appointment
@@ -156,8 +159,8 @@ const Navbar = () => {
                                 </li>
                             ))}
                             <li>
-                                <button 
-                                    className="cta-button mobile-cta" 
+                                <button
+                                    className="cta-button mobile-cta"
                                     onClick={() => {
                                         toggleMobileMenu();
                                         window.open('https://calendly.com/rasorybooking', '_blank', 'noopener,noreferrer');
