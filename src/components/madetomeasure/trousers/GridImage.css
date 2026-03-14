@@ -8,12 +8,21 @@
   justify-content: center;
 }
 
-.trousers-grid-container {
+/* .trousers-grid-container {
   width: 100%;
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+} */
+
+.trousers-grid-container {
+  width: 100%;
+  max-width: 1000px; /* Reducing this will make the overall collage smaller */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
+  gap: 1rem; /* Smaller gap for smaller images */
 }
 
 /* Common Image Wrapper Styles */
@@ -105,16 +114,34 @@
 .delay-2 { transition-delay: 0.4s; }
 
 /* Responsive Adjustments */
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .trousers-grid-container {
-    grid-template-columns: 1fr; /* Stack on mobile */
+    grid-template-columns: 1fr; 
   }
   
   .trousers-grid-item {
     aspect-ratio: 4 / 5;
   }
   
-  /* Reduce delays on mobile so they don't take forever to show up */
+ 
   .delay-1 { transition-delay: 0.1s; }
   .delay-2 { transition-delay: 0.2s; }
+} */
+
+@media screen and (max-width: 900px) {
+  .trousers-grid-container {
+    /* Keep 3 columns even on mobile */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 0.5rem; /* Tighter spacing for small screens */
+    padding: 0 10px;
+  }
+  
+  .overlay-text {
+    font-size: 0.7rem; /* Shrink text so it fits on mobile */
+    letter-spacing: 1px;
+  }
+
+  .trousers-grid-item {
+    aspect-ratio: 3 / 4; /* Keep the portrait shape */
+  }
 }

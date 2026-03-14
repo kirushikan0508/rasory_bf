@@ -83,10 +83,16 @@
 }
 
 /* Specific Row Layouts */
-.grid-top-row {
+/* .grid-top-row {
   width: 1200px;
-  aspect-ratio: 28 / 9; /* Wider, shorter premium shot */
+  aspect-ratio: 28 / 9; 
   height: 650px;
+} */
+
+.grid-top-row {
+  width: 100%; /* Change from 1200px to 100% */
+  max-height: 650px; /* Use max-height instead of height to allow shrinking */
+  aspect-ratio: 28 / 9; 
 }
 
 .grid-bottom-row {
@@ -121,21 +127,46 @@
 .delay-3 { transition-delay: 0.5s; }
 
 /* Responsive Adjustments */
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .grid-bottom-row {
-    grid-template-columns: 1fr; /* Stack on mobile */
+    grid-template-columns: 1fr; 
   }
   
   .grid-top-row {
-    aspect-ratio: 21 / 9; /* Make slightly taller on mobile */
+    aspect-ratio: 21 / 9; 
   }
 
   .grid-item {
     aspect-ratio: 1 / 1;
   }
   
-  /* Reduce delays on mobile so they don't take forever to show up */
+
   .delay-1 { transition-delay: 0.1s; }
   .delay-2 { transition-delay: 0.2s; }
   .delay-3 { transition-delay: 0.3s; }
+} */
+
+/* Update your Responsive section like this */
+@media screen and (max-width: 900px) {
+  .grid-image-section {
+    padding: 0 1rem; /* Smaller side padding on mobile */
+  }
+
+  .grid-image-container {
+    gap: 0.75rem; /* Tighten the gap between top and bottom */
+  }
+
+  .grid-bottom-row {
+    grid-template-columns: repeat(3, 1fr); /* FORCES 3 columns even on mobile */
+    gap: 0.75rem; /* Tighten the gap between the 3 images */
+  }
+  
+  .grid-top-row {
+    aspect-ratio: 16 / 9; /* Slightly taller for better mobile viewing */
+    height: auto; /* Allow it to shrink */
+  }
+
+  .grid-item {
+    aspect-ratio: 1 / 1; /* Keeps them square */
+  }
 }

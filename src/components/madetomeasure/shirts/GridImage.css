@@ -82,11 +82,11 @@
   transform: translateY(0);
 }
 
-/* Specific Row Layouts */
 .grid-top-row {
-  width: 1200px;
-  aspect-ratio: 28 / 9; /* Wider, shorter premium shot */
-  height: 650px;
+  width: 100%;
+  aspect-ratio: 28 / 9; 
+  height: auto; /* Changed from 650px */
+  max-height: 650px; /* Optional: limits how big it gets on giant monitors */
 }
 
 .grid-bottom-row {
@@ -120,21 +120,25 @@
 .delay-2 { transition-delay: 0.35s; }
 .delay-3 { transition-delay: 0.5s; }
 
-/* Responsive Adjustments */
+
 @media screen and (max-width: 900px) {
+  /* Keep the 3-column structure */
   .grid-bottom-row {
-    grid-template-columns: 1fr; /* Stack on mobile */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 0.75rem; /* Smaller gap for smaller screens */
   }
   
+  /* Make the top image scale height automatically */
   .grid-top-row {
-    aspect-ratio: 21 / 9; /* Make slightly taller on mobile */
+    aspect-ratio: 16 / 9; /* More standard mobile widescreen ratio */
+    height: auto; /* Remove the 650px fixed height */
   }
 
-  .grid-item {
-    aspect-ratio: 1 / 1;
+  .grid-image-section {
+    padding: 2rem 1rem; /* Reduce side padding so images have more room */
   }
-  
-  /* Reduce delays on mobile so they don't take forever to show up */
+
+  /* Reset delays for mobile performance */
   .delay-1 { transition-delay: 0.1s; }
   .delay-2 { transition-delay: 0.2s; }
   .delay-3 { transition-delay: 0.3s; }
