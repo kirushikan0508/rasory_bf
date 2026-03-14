@@ -2,23 +2,35 @@ import React from 'react';
 import './SuitFabrics.css';
 
 import reda from "../../../assets/download.jpg";
-
+import logo1 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory Fabric-Brand Hedva.png";
+import logo2 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory-Fabric-Brand-Brisbane-Moss.png";
+import logo3 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory-Fabric-Brand--Carnet.png";
+import logo4 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory-Fabric-Brand-Drago.png";
+import logo5 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory-Fabric-Brand--Guabello.png";
+import logo6 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory-Fabric-Brand-Lora-Piana.png";
+import logo7 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory-Fabric-Brand--Moon.png";
+import logo8 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory-Fabric-Brand-Paulo-de-Oliveira.png";
+import logo9 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory-Fabric-Brand-Reda.png";
+import logo10 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory-Fabric-Brand-Scabal.png";
+import logo11 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory-Fabric-Brand--The-British-Millerain.png";
+import logo12 from "../../../assets/Rasory And Fabric Logo - LK/Suit the fabrics/Rasory-Fabric-Brand--Vitale-Barberis-Canonico.png";
 
 const Fabric = () => {
   // Brand logos - mapping to placeholder images for now
   // In a real scenario, these would be local asset imports or CDN URLs
   const brands = [
-    { id: 1, logo: reda },
-    { id: 2, logo: "https://placehold.co/200x100/171717/C6A75E?text=REDA" },
-    { id: 3, logo: "https://placehold.co/200x100/171717/C6A75E?text=MOON" },
-    { id: 4, logo: "https://placehold.co/200x100/171717/C6A75E?text=BRISBANE+MOSS" },
-    { id: 5, logo: "https://placehold.co/200x100/171717/C6A75E?text=ALBINI" },
-    { id: 6, logo: "https://placehold.co/200x100/171717/C6A75E?text=CANCLINI" },
-    { id: 7, logo: "https://placehold.co/200x100/171717/C6A75E?text=THOMAS+MASON" },
-    { id: 8, logo: "https://placehold.co/200x100/171717/C6A75E?text=LORO+PIANA" },
-    { id: 9, logo: "https://placehold.co/200x100/171717/C6A75E?text=VITALE+BARBERIS" },
-    { id: 10, logo: "https://placehold.co/200x100/171717/C6A75E?text=DORMEUIL" },
-    { id: 11, logo: "https://placehold.co/200x100/171717/C6A75E?text=HOLLAND+%26+SHERRY" }
+    { id: 1, logo: logo1 },
+    { id: 2, logo: logo2},
+    { id: 3, logo: logo3},
+    { id: 4, logo: logo4 },
+    { id: 5, logo: logo5 },
+    { id: 6, logo: logo6 },
+    { id: 7, logo: logo7 },
+    { id: 8, logo: logo8 },
+    { id: 9, logo: logo9 },
+    { id: 10, logo: logo10 },
+    { id: 11, logo: logo11},
+    { id :12, logo:logo12}
   ];
 
   // Double the brands to create a seamless infinite loop

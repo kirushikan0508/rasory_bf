@@ -1,5 +1,11 @@
 import React from 'react';
 import './ShirtFabric.css';
+import logo1 from "../../../assets/Rasory And Fabric Logo - LK/shirt/Rasory-Fabric-Brand-Allini.png";
+import logo2 from "../../../assets/Rasory And Fabric Logo - LK/shirt/Rasory-Fabric-Brand-Ctessile.png";
+import logo3 from "../../../assets/Rasory And Fabric Logo - LK/shirt/Rasory-Fabric-Brand-Getzner.png";
+import logo4 from "../../../assets/Rasory And Fabric Logo - LK/shirt/Rasory-Fabric-Brand-Metzeler.png";
+import logo5 from "../../../assets/Rasory And Fabric Logo - LK/shirt/Rasory-Fabric-Brand-Mileta.png";
+
 
 import reda from "../../../assets/download.jpg";
 
@@ -8,17 +14,17 @@ const Fabric = () => {
   // Brand logos - mapping to placeholder images for now
   // In a real scenario, these would be local asset imports or CDN URLs
   const brands = [
-    { id: 1, logo: reda },
-    { id: 2, logo: "https://placehold.co/200x100/171717/C6A75E?text=REDA" },
-    { id: 3, logo: "https://placehold.co/200x100/171717/C6A75E?text=MOON" },
-    { id: 4, logo: "https://placehold.co/200x100/171717/C6A75E?text=BRISBANE+MOSS" },
-    { id: 5, logo: "https://placehold.co/200x100/171717/C6A75E?text=ALBINI" },
-    { id: 6, logo: "https://placehold.co/200x100/171717/C6A75E?text=CANCLINI" },
-    { id: 7, logo: "https://placehold.co/200x100/171717/C6A75E?text=THOMAS+MASON" },
-    { id: 8, logo: "https://placehold.co/200x100/171717/C6A75E?text=LORO+PIANA" },
-    { id: 9, logo: "https://placehold.co/200x100/171717/C6A75E?text=VITALE+BARBERIS" },
-    { id: 10, logo: "https://placehold.co/200x100/171717/C6A75E?text=DORMEUIL" },
-    { id: 11, logo: "https://placehold.co/200x100/171717/C6A75E?text=HOLLAND+%26+SHERRY" }
+    { id: 1, logo: logo1 },
+    { id: 2, logo: logo2 },
+    { id: 3, logo: logo3 },
+    { id: 4, logo: logo4 },
+    { id: 5, logo: logo5 },
+    // { id: 6, logo: "https://placehold.co/200x100/171717/C6A75E?text=CANCLINI" },
+    // { id: 7, logo: "https://placehold.co/200x100/171717/C6A75E?text=THOMAS+MASON" },
+    // { id: 8, logo: "https://placehold.co/200x100/171717/C6A75E?text=LORO+PIANA" },
+    // { id: 9, logo: "https://placehold.co/200x100/171717/C6A75E?text=VITALE+BARBERIS" },
+    // { id: 10, logo: "https://placehold.co/200x100/171717/C6A75E?text=DORMEUIL" },
+    // { id: 11, logo: "https://placehold.co/200x100/171717/C6A75E?text=HOLLAND+%26+SHERRY" }
   ];
 
   // Double the brands to create a seamless infinite loop
