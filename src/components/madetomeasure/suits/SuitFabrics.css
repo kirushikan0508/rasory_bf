@@ -46,7 +46,7 @@
 
 .fabric-track {
     display: flex;
-    width: calc(280px * 22);
+    width: calc(450px * 24);
     animation: scroll-left 40s linear infinite;
 }
 
@@ -55,13 +55,13 @@
 }
 
 .fabric-item {
-    width: 280px;
-    height: 120px;
+    width: 450px;
+    height: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    padding: 0 30px;
+    padding: 0 50px;
 }
 
 .fabric-logo-container {
@@ -81,7 +81,7 @@
 
 .fabric-logo-img {
     max-width: 100%;
-    max-height: 80%;
+    max-height: 100%;
     object-fit: contain;
 }
 
@@ -90,7 +90,7 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-280px * 11));
+        transform: translateX(calc(-450px * 12));
     }
 }
 
