@@ -10,6 +10,7 @@ import SuitRow from '../components/madetomeasure/suits/SuitRow';
 import SuitFabrics from '../components/madetomeasure/suits/SuitFabrics';
 import SuitQuality from '../components/madetomeasure/suits/SuitQuality';
 import SuitConsult from '../components/madetomeasure/suits/SuitConsult';
+import Consultant from "../components/ConsultingSection"
 
 import Hero from '../components/ui/Hero';
 
@@ -32,7 +33,8 @@ const MadeToMeasureSuit = () => {
             <SuitRow />
             <SuitFabrics />
             <SuitQuality />
-            <SuitConsult />
+            {/* <SuitConsult /> */}
+            <Consultant />
             <Footer />
         </div>
     );

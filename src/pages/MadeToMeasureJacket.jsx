@@ -9,6 +9,7 @@ import JacketVersatile from '../components/madetomeasure/jackets/JacketVersatile
 import JacketConsult from '../components/madetomeasure/jackets/JacketConsult';
 import Grid from '../components/madetomeasure/jackets/GridImage';
 import Hero from '../components/ui/Hero';
+import Consultant from "../components/ConsultingSection"
 
 import heroimage from "../assets/jacket hero.png";
 
@@ -28,7 +29,8 @@ const MadeToMeasureJacket = () => {
             <JacketIntro />
             <Grid />
             <JacketVersatile />
-            <JacketConsult />
+            {/* <JacketConsult /> */}
+            <Consultant />
             <Footer />
         </div>
     );

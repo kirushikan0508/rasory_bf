@@ -10,6 +10,7 @@ import Detail from '../components/madetomeasure/shirts/Detail';
 import Fabric from '../components/madetomeasure/shirts/ShirtFabric';
 import Hero from '../components/ui/Hero';
 import Grid from "../components/madetomeasure/shirts/GridImage"
+import Consultant from "../components/ConsultingSection"
 
 import './MadeToMeasureShirt.css';
 
@@ -29,7 +30,8 @@ const MadeToMeasureShirt = () => {
             <Fabric />
             <ShirtPersonal />
             {/* <ShirtConsult /> */}
-            <Detail />
+            {/* <Detail /> */}
+            <Consultant />
             <Footer />
         </div>
     );

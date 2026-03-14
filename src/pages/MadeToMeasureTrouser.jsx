@@ -9,6 +9,7 @@ import TrouserStyle from '../components/madetomeasure/trousers/TrouserStyle';
 import TrouserStrip from '../components/madetomeasure/trousers/TrouserStrip';
 import TrouserConsult from '../components/madetomeasure/trousers/TrouserConsult';
 import Grid from '../components/madetomeasure/trousers/GridImage';
+import Consultant from "../components/ConsultingSection"
 
 import panthero from "../assets/trouser-hero.png";
 
@@ -29,8 +30,8 @@ const MadeToMeasureTrouser = () => {
             <Grid />
             <TrouserStyle />
             <TrouserStrip />
-            <TrouserConsult />
-            
+            {/* <TrouserConsult /> */}
+            <Consultant />           
             <Footer />
         </div>
     );
