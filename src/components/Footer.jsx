@@ -40,10 +40,10 @@ const Footer = () => {
                     <div className="footer-col">
                         <h4 className="footer-col-title">Made to Measure</h4>
                         <ul className="footer-col-list">
-                            <li><Link to="/made-to-measure/suit">Bespoke Suits</Link></li>
-                            <li><Link to="/made-to-measure/shirt">Custom Shirts</Link></li>
-                            <li><Link to="/made-to-measure/trouser">Tailored Trousers</Link></li>
-                            <li><Link to="/made-to-measure/jacket">Jackets &amp; Blazers</Link></li>
+                            <li><Link to="/made-to-measure/suit">Tailor-Made Suits</Link></li>
+                            <li><Link to="/made-to-measure/shirt">Tailor-Made Shirts</Link></li>
+                            <li><Link to="/made-to-measure/trouser">Tailor-Made Trousers</Link></li>
+                            <li><Link to="/made-to-measure/jacket">Tailor-Made Jacket</Link></li>
                         </ul>
                     </div>
 
