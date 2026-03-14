@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import ProductGrid from '../components/home/ProductGrid';
 import QuoteSection from '../components/home/QuoteSection';
 import MaterialsSection from '../components/home/MaterialsSection';
-import ConsultingSection from '../components/home/ConsultingSection';
+import ConsultingSection from '../components/ConsultingSection';
 import Footer from '../components/Footer';
 import Hero from '../components/ui/Hero';
 
