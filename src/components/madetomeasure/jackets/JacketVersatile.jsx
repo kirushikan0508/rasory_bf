@@ -26,9 +26,9 @@ const JacketVersatile = () => {
     return (
         <section className="jacket-versatile-section">
             <div className="jacket-versatile-container" ref={sectionRef}>
-                <h2 className="jacket-versatile-title">Vielseitigkeit trifft auf Stil</h2>
+                <h2 className="jacket-versatile-title">Vielseitigkeit trifft Stil</h2>
                 <p className="jacket-versatile-desc">
-                    Ob sofort einsatzbereit oder als Hingucker zu einem besonderen Anlass kombiniert — das Sakko ist unser Klassiker, der die vielfältigste Ausdrucksform in einer Garderobe bietet. Es ist leger, anspruchsvoll, modern und elegant zugleich. Wählen Sie den perfekten Schnitt für eine mühelose Eleganz, die Sie hervorhebt, und das raffinierte Schneidererlebnis, das unvergleichlich in Qualität und individuell im Ausdruck ist.
+                    Meine vielfältigen Gestaltungsmöglichkeiten erlauben es, Ihren Look zu intensivieren und das Sakko flexibel für verschiedene Gelegenheiten zu gestalten. Ob casual, smart casual oder smart casual extravagant ganz gleich, ob Sie Ihr Sakko mit Jeans, Chino oder Anzughose kombinieren möchten. Gemeinsam kreieren wir ein massgeschneidertes Unikat, das Sie sowohl im beruflichen Alltag als auch bei besonderen Events stilvoll begleitet, und perfekt auf Ihren Anlass abgestimmt ist.
                 </p>
             </div>
         </section>

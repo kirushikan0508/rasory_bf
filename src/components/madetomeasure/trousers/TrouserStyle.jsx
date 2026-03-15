@@ -26,9 +26,9 @@ const TrouserStyle = () => {
     return (
         <section className="trouser-style-section">
             <div className="trouser-style-container" ref={sectionRef}>
-                <h2 className="trouser-style-title">Ihr individueller Stil</h2>
+                <h2 className="trouser-style-title">Ihr individueller Style</h2>
                 <p className="trouser-style-desc">
-                    Egal, ob Sie lässige Chinos oder elegante Stile mit französischen Taschen bevorzugen, ich passe die Passform und Details an Ihre individuellen Bedürfnisse an. Hochwertige Materialien sorgen für ein angenehmes Tragegefühl, während besondere Akzente wie Bundfalten und Umschläge den Look abrunden. Gemeinsam kreieren wir eine Hose, die Ihren Anforderungen entspricht – stilvoll, bequem und einzigartig. Vertrauen Sie auf meine Erfahrung.
+                    Sei es lässiger Chino oder elegante Modelle mit französischen Taschen, ich passe die Passform sowie die Details individuell an. Hochwertige Materialien sorgen für ein angenehmes Tragegefühl, während spezielle Akzente wie Bundfalten und umschlagener Look die Hose vervollständigen. Gemeinsam entwickeln wir eine Hose, die Ihren Anforderungen entspricht – stilvoll, bequem und einzigartig. Vertrauen Sie auf meine Erfahrung.
                 </p>
             </div>
         </section>

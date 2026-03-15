@@ -26,9 +26,9 @@ const JacketIntro = () => {
     return (
         <section className="jacket-intro-section" ref={sectionRef}>
             <div className="jacket-intro-container">
-                <h1 className="jacket-intro-title">Im Fokus steht Ihr individueller Stil</h1>
+                <h1 className="jacket-intro-title">ihr individueller Stil im Fokus</h1>
                 <p className="jacket-intro-text">
-                    Wir legen den Fokus auf das persönliche Design Ihres Sakkos. Von der feinsten Auswahl natürlicher Materialien bis hin zu präzisen Schnitten liegt unsere Spezialisierung bei Sakkos. Die Details der Schneiderkunst schaffen ein perfektes Produkt. Bei uns finden Sie elegante Business-Looks, figurbetonende legere und doch exklusive Sakkos und Mäntel. Wir bieten unseren Kunden Beratung, Lösungen und den hohen Anspruch, das feinste Kleidungsstück Ihrer individuellen Garderobe zu schaffen.
+                    Bei mir steht die persönliche Gestaltung Ihres Sakkos im Mittelpunkt. Neben der Auswahl exquisiter Stoffe und präziser Schnitte lege ich besonderen Wert auf die Details. Die Wahl der Taschen, ob klassische Paspelierte Pattentaschen, die einen eleganten Business-Look vermitteln, oder sportlich offene aufgesetzte Taschen, ermöglicht es, den Stil Ihres Sakkos individuell zu verfeinern. Durch diese feinen Nuancen können wir das Erscheinungsbild Ihres Sakkos gezielt auf Ihre Wünsche abstimmen.
                 </p>
             </div>
         </section>

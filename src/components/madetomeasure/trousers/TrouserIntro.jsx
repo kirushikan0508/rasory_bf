@@ -28,7 +28,7 @@ const TrouserIntro = () => {
             <div className="trouser-intro-container">
                 <h1 className="trouser-intro-title">Komfort und Eleganz nach Mass</h1>
                 <p className="trouser-intro-text">
-                    Eine perfekt sitzende Hose ist das Fundament eines gepflegten Looks. Für mich steht die individuelle Passform an erster Stelle, um maximalen Komfort zu gewährleisten. Die Hosen bieten vielseitige Stile und stilvolle Details. Ich berate Sie bei Stoffen, Schnitten und Designs, um eine Hose zu kreieren, die perfekt sitzt. Gemeinsam bestimmen wir die Details, vom Bund über den Stoff bis zur Passform, um eine Hose zu fertigen, die sowohl Ihren ästhetischen Ansprüchen als auch Ihren Komfortbedürfnissen gerecht wird. Mein Ziel ist es, massgeschneiderte Hosen zu kreieren, die sich durch höchste Qualität, makellose Handwerkskunst und individuelles Design auszeichnen.
+                    Eine perfekt sitzende Hose ist das Fundament eines gelungenen Erscheinungsbildes. Bei mit steht die individuelle Passform im Vordergrund um höchsten Tragekomfort zu gewährleisten Die Hosen bieten vielseitige Styles und stilvolle Elemente. Ich berate Sie bei Stoffen, Schnitten und Designs, um eine Hose zu kreieren, die perfekt sitzt. Gemeinsam bestimmen wir die Details, vom Bund über den Stoff bis hin zur Passform, um eine Hose zu kreieren, die sowohl Ihren ästhetischen Ansprüchen als auch Ihrem Komfort gerecht wird. Mein Ziel ist es, eine massgeschneiderte Hose zu schaffen, die durch höchste Qualität, perfekte Verarbeitung und individuelle Gestaltung heraussticht.
                 </p>
             </div>
         </section>
