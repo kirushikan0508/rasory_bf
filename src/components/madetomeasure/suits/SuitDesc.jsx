@@ -27,7 +27,7 @@ const SuitDesc = () => {
         <section className="suit-desc-section" ref={sectionRef}>
             <div className="suit-desc-container">
                 <p>
-                    Durch die akribische Bearbeitung jeder Phase verbinden wir Präzision mit Hingabe, um ein Ergebnis zu erzielen, das nicht nur perfekt passt, sondern auch Ihre einzigartige Persönlichkeit widerspiegelt. Ob Sie einen eleganten Business-Anzug oder einen formellen Anzug für besondere Anlässe wünschen, ich fertige Ihren massgeschneiderten Anzug, perfekt auf Ihre Bedürfnisse zugeschnitten.
+                    Durch das sorgfältige Durchlaufen jeder Phase verbinden wir Präzision mit Hingabe, um ein Ergebnis zu schaffen, das nicht nur perfekt sitzt, sondern auch Ihre Einzigartigkeit zum Ausdruck bringt. Ganz gleich, ob Sie einen eleganten Business-Anzug oder einen festlichen Anzug für besondere Anlässe wünschen, ich fertige Ihren individuellen Anzug, der perfekt auf Ihre Bedürfnisse abgestimmt ist.
                 </p>
             </div>
         </section>

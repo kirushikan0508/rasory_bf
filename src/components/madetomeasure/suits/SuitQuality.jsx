@@ -26,9 +26,9 @@ const SuitQuality = () => {
     return (
         <section className="suit-quality-section">
             <div className="suit-quality-container" ref={sectionRef}>
-                <h2 className="suit-quality-title">Qualität, die ihre Zeit braucht</h2>
+                <h2 className="suit-quality-title">Qualität, die ihre Zeit benötigt</h2>
                 <p className="suit-quality-desc">
-                    Die Produktion dauert in der Regel bis zu vier Wochen. Bei Bedarf biete ich auch einen Express-Service innerhalb von drei Wochen an. Qualität und Präzision stehen für mich an erster Stelle, um sicherzustellen, dass Sie ein einzigartiges Kleidungsstück erhalten.
+                    Die Anfertigung dauert in der in der Regel bis zu vier Wochen. Bei Bedarf biete ich auch eine Express-Anfertigung innerhalb von drei Wochen an. Qualität und Präzision stehen bei mir an erster Stelle, damit Sie ein einzigartiges Kleidungsstück erhalten.
                 </p>
             </div>
         </section>

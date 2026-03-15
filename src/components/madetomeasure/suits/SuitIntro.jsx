@@ -26,9 +26,9 @@ const SuitIntro = () => {
     return (
         <section className="suit-intro-section" ref={sectionRef}>
             <div className="suit-intro-container">
-                <h1 className="suit-intro-title">Ein Anzug, der nicht nur passt, sondern inspiriert</h1>
+                <h1 className="suit-intro-title">Ein Anzug, der nicht nur passt, sondern begeistert</h1>
                 <p className="suit-intro-text">
-                    Die Anfertigung eines massgeschneiderten Anzugs, sei es ein eleganter Zweiteiler oder ein stilvoller Dreiteiler mit Weste, erfordert grösste Sorgfalt, Leidenschaft und meisterhafte Handwerkskunst. Ich verwende nur exklusive Stoffe und entwickle individuelle Schnittmuster, die exakt auf Ihre Wünsche und Ihren persönlichen Körperbau abgestimmt sind. Jeder Schritt im Herstellungsprozess ist wohlüberlegt und präzise: von der Auswahl des perfekten Stoffes und der Entwicklung des detaillierten Schnittmusters bis hin zur hochwertigen Verarbeitung. Ein Zweiteiler konzentriert sich auf stilvolle, zeitlose Eleganz, während ein Dreiteiler mit Weste eine zusätzliche Dimension von Raffinesse und Vielseitigkeit bietet.
+                   Die Anfertigung eines hochwertigen Anzugs, sei es ein eleganter zweiteiliger Anzug oder ein stilvoller dreiteiliger Anzug mit Weste, erfordert viel Sorgfalt, Leidenschaft und meisterhafte Handwerkskunst. Ich verwende ausschließlich exklusive Stoffe und entwickle individuelle Schnittmuster, die exakt auf Ihre Wünsche sowie auf Ihre persönliche Körperform abgestimmt sind. Jeder Schritt im Herstellungsprozess ist durchdacht und präzise: Von der Auswahl des passenden Stoffes über die detaillierte Schnittentwicklung bis hin zur hochwertigen Verarbeitung. Bei einem zweiteiligen Anzug liegt der Fokus auf einer stilvollen, zeitlosen Eleganz, während der dreiteilige Anzug mit Weste eine zusätzliche Dimension von Eleganz und Vielseitigkeit bietet.
                 </p>
             </div>
         </section>
