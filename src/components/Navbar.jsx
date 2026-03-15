@@ -30,7 +30,7 @@ const Navbar = () => {
         { name: 'ABOUT', path: '/about' },
         { name: 'Inspiration', path: '/inspiration' },
         { name: 'Store', path: '/store' },
-        { name: 'Preisliste', path: '/price-list' },
+        { name: 'PREISLISTE', path: '/price-list' },
         {
             name: 'MASSANFERTIGUNG',
             path: '#',

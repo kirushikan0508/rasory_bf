@@ -16,7 +16,7 @@ const Footer = () => {
                             <span className="footer-logo-text">RASORY</span>
                         </div>
                         <p className="footer-brand-desc">
-                            Eleganz durch Massanfertigung. Erleben Sie die perfekte Passform mit Rasory.
+                            Ich fertige Masskleidungen, die so einmalig sind wie Sie selbst. Mit Leidenschaft für Details fertigen wir jedes Stück präzise nach Ihren Wünschen. Erleben Sie zeitlosen Stil mit modernen Akzenten perfekt auf Sie abgestimmt.
                         </p>
                         <div className="footer-social">
                             <a href="#" aria-label="Instagram"><Instagram size={18} /></a>
@@ -29,10 +29,10 @@ const Footer = () => {
                     <div className="footer-col">
                         <h4 className="footer-col-title">Schnelle Links</h4>
                         <ul className="footer-col-list">
-                            <li><Link to="/about">Über uns</Link></li>
-                            <li><Link to="/store">Store</Link></li>
+                            <li><Link to="/about">ABOUT</Link></li>
+                            <li><Link to="/store">STORE</Link></li>
                             <li><Link to="/inspiration">Inspiration</Link></li>
-                            <li><Link to="/price-list">Preisliste</Link></li>
+                            <li><Link to="/price-list">PREISLISTE</Link></li>
                         </ul>
                     </div>
 
@@ -40,10 +40,10 @@ const Footer = () => {
                     <div className="footer-col">
                         <h4 className="footer-col-title">Massanfertigung</h4>
                         <ul className="footer-col-list">
-                            <li><Link to="/made-to-measure/suit">Massgeschneiderte Anzüge</Link></li>
-                            <li><Link to="/made-to-measure/shirt">Massgeschneiderte Hemden</Link></li>
-                            <li><Link to="/made-to-measure/trouser">Massgeschneiderte Hosen</Link></li>
-                            <li><Link to="/made-to-measure/jacket">Massgeschneiderte Jacken</Link></li>
+                            <li><Link to="/made-to-measure/suit">MASSANZÜGE</Link></li>
+                            <li><Link to="/made-to-measure/shirt">MASSHEMD</Link></li>
+                            <li><Link to="/made-to-measure/trouser">MASSHOSE</Link></li>
+                            <li><Link to="/made-to-measure/jacket">MASSSAKKO</Link></li>
                         </ul>
                     </div>
 
