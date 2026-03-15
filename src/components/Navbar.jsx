@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'lucide-react';
-// import { useTheme } from '../context/ThemeContext';
-// import ThemeToggle from './ui/ThemeToggle';
 import { Link } from 'react-router-dom';
 import logoSvg from '../assets/Rasory And Fabric Logo - LK/Rasory Logo-01.svg';
 import './Navbar.css';
@@ -12,7 +10,7 @@ const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-    // const { theme } = useTheme();
+
 
     useEffect(() => {
         const handleScroll = () => {

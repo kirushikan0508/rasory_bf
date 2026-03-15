@@ -17,17 +17,6 @@
     --btn-radius: 50px;
 }
 
-html.light {
-    /* Light Mode Overrides */
-    --bg-primary: #F6F6F6;
-    --bg-section: #FFFFFF;
-    --text-primary: #111111;
-    --text-muted: #666666;
-    --border-subtle: rgba(0, 0, 0, 0.08);
-    /* Dark subtle border for light mode */
-    --shadow-soft: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
-}
-
 body {
     background: var(--bg-primary);
     color: var(--text-primary);

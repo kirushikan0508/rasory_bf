@@ -9,19 +9,13 @@
     background: transparent;
 }
 
+/* Scrolled navbar styling */
 .navbar.scrolled {
     padding: 1rem 4rem;
     background: var(--bg-primary);
-    /* Changed from fixed rgba to var for theme support */
     backdrop-filter: blur(15px);
     border-bottom: 1px solid var(--border-subtle);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-}
-
-/* Light mode specific adjustment for scrolled navbar opacity if needed */
-[data-theme="light"] .navbar.scrolled {
-    background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-container {
@@ -172,10 +166,6 @@ li.has-dropdown:hover .dropdown-icon {
     transform: rotate(15deg);
 }
 
-[data-theme="light"] .theme-toggle:hover {
-    background: rgba(0, 0, 0, 0.05);
-}
-
 .cta-button {
     padding: 0.8rem 1.8rem;
     background: transparent;
@@ -195,11 +185,6 @@ li.has-dropdown:hover .dropdown-icon {
     color: var(--bg-primary);
     /* Uses var to adapt to theme logic if needed, or stick to dark/gold contrast */
     box-shadow: 0 0 20px rgba(198, 167, 94, 0.3);
-}
-
-/* Ensure button text is readable in light mode when hovered */
-[data-theme="light"] .cta-button:hover {
-    color: #fff;
 }
 
 
@@ -231,10 +216,6 @@ li.has-dropdown:hover .dropdown-icon {
     padding: 8rem 2rem;
     z-index: 2000;
     box-shadow: -10px 0 50px rgba(0, 0, 0, 0.8);
-}
-
-[data-theme="light"] .mobile-menu {
-    box-shadow: -10px 0 50px rgba(0, 0, 0, 0.15);
 }
 
 .mobile-nav-links {
