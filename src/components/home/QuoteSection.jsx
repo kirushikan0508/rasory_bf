@@ -20,7 +20,7 @@ const QuoteSection = () => {
                     <h2 className="quote-text">
                         Der Unterschied zwischen gewöhnlich und außergewöhnlich liegt im Detail
                     </h2>
-                    <p className="quote-author">— The Difference Between Ordinary & Extraordinary Lies in the Detail</p>
+                    <p className="quote-author">— Der Unterschied zwischen gewöhnlich und aussergewöhnlich liegt im Detail</p>
                 </motion.div>
             </div>
         </section>

@@ -26,9 +26,9 @@ const SuitIntro = () => {
     return (
         <section className="suit-intro-section" ref={sectionRef}>
             <div className="suit-intro-container">
-                <h1 className="suit-intro-title">A suit that not only fits, but inspires</h1>
+                <h1 className="suit-intro-title">Ein Anzug, der nicht nur passt, sondern inspiriert</h1>
                 <p className="suit-intro-text">
-                    Crafting a high-quality suit, whether an elegant two-piece or a stylish three-piece suit with a waistcoat, requires meticulous care, passion, and masterful craftsmanship. I use only exclusive fabrics and develop individual patterns precisely tailored to your wishes and your personal physique. Every step in the manufacturing process is carefully considered and precise: from selecting the perfect fabric and developing the detailed pattern to the high-quality finishing. A two-piece suit focuses on stylish, timeless elegance, while a three-piece suit with a waistcoat offers an additional dimension of sophistication and versatility.
+                    Die Anfertigung eines massgeschneiderten Anzugs, sei es ein eleganter Zweiteiler oder ein stilvoller Dreiteiler mit Weste, erfordert grösste Sorgfalt, Leidenschaft und meisterhafte Handwerkskunst. Ich verwende nur exklusive Stoffe und entwickle individuelle Schnittmuster, die exakt auf Ihre Wünsche und Ihren persönlichen Körperbau abgestimmt sind. Jeder Schritt im Herstellungsprozess ist wohlüberlegt und präzise: von der Auswahl des perfekten Stoffes und der Entwicklung des detaillierten Schnittmusters bis hin zur hochwertigen Verarbeitung. Ein Zweiteiler konzentriert sich auf stilvolle, zeitlose Eleganz, während ein Dreiteiler mit Weste eine zusätzliche Dimension von Raffinesse und Vielseitigkeit bietet.
                 </p>
             </div>
         </section>

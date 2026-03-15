@@ -33,27 +33,27 @@ const JacketConsult = () => {
     const consulting = [
         {
             icon: <Handshake size={32} />,
-            title: 'Getting to know & Selection',
-            desc: 'At the first meeting, we take our time to understand your expectations, your style, and your wardrobe goals. Together we will discuss fabrics, colors and the perfect jacket style for you.',
+            title: 'Kennenlernen & Auswahl',
+            desc: 'Beim ersten Treffen nehmen wir uns Zeit, um Ihre Erwartungen, Ihren Stil und Ihre Garderoben-Ziele zu verstehen. Gemeinsam besprechen wir Stoffe, Farben und den perfekten Sakko-Stil für Sie.',
         },
         {
             icon: <Ruler size={32} />,
-            title: 'Precision & Individualization',
-            desc: 'With more than a dozen precise measurements, we ensure your personal fit. The shoulder line, the lapel width, the button stance — every detail is carefully adjusted to fit your body perfectly.',
+            title: 'Präzision & Individualisierung',
+            desc: 'Mit mehr als einem Dutzend präziser Masse gewährleisten wir Ihre persönliche Passform. Die Schulterlinie, die Reversbreite, der Knopfstand — jedes Detail wird sorgfältig auf Ihren Körper abgestimmt.',
         },
         {
             icon: <Package size={32} />,
-            title: 'Delivery & Completion',
-            desc: 'The last fitting, every detail is checked. Every line sits, every seam falls perfectly. The jacket is impeccably finished — including a premium garment bag for perfect care and storage.',
+            title: 'Auslieferung & Fertigstellung',
+            desc: 'Die letzte Anprobe, jedes Detail wird geprüft. Jede Linie sitzt, jede Naht fällt perfekt. Das Sakko wird tadellos übergeben — inklusive eines hochwertigen Kleidersacks für die perfekte Pflege und Aufbewahrung.',
         },
     ];
 
     return (
         <section className="jacket-consult-section">
             <div className="jacket-consult-container">
-                <h2 className="jacket-consult-title" ref={addRef}>Our consulting concept</h2>
+                <h2 className="jacket-consult-title" ref={addRef}>Unser Beratungskonzept</h2>
                 <p className="jacket-consult-subtitle" ref={addRef}>
-                    With the modern consulting concept, we accompany you on every step from the initial idea to the finished jacket.
+                    Mit dem modernen Beratungskonzept begleiten wir Sie bei jedem Schritt von der ersten Idee bis zum fertigen Sakko.
                 </p>
                 <div className="jacket-consult-grid">
                     {consulting.map((item, i) => (

@@ -27,18 +27,18 @@ const Navbar = () => {
     const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
 
     const menuItems = [
-        { name: 'About', path: '/about' },
+        { name: 'ABOUT', path: '/about' },
         { name: 'Inspiration', path: '/inspiration' },
         { name: 'Store', path: '/store' },
-        { name: 'Price List', path: '/price-list' },
+        { name: 'Preisliste', path: '/price-list' },
         {
-            name: 'MADE-TO-MEASURE',
+            name: 'MASSANFERTIGUNG',
             path: '#',
             dropdown: [
-                { name: 'Tailor-Made Shirt', path: '/made-to-measure/shirt' },
-                { name: 'Tailor-Made Trouser', path: '/made-to-measure/trouser' },
-                { name: 'Tailor-Made Suits', path: '/made-to-measure/suit' },
-                { name: 'Tailor-Made Jacket', path: '/made-to-measure/jacket' },
+                { name: 'masshemden', path: '/made-to-measure/shirt' },
+                { name: 'masshose', path: '/made-to-measure/trouser' },
+                { name: 'massanzüge', path: '/made-to-measure/suit' },
+                { name: 'masssakko', path: '/made-to-measure/jacket' },
             ]
         },
     ];
@@ -105,7 +105,7 @@ const Navbar = () => {
                         className="cta-button"
                         onClick={() => window.open('https://calendly.com/rasorybooking', '_blank', 'noopener,noreferrer')}
                     >
-                        Book Appointment
+                        TERMIN BUCHEN
                     </button>
                 </div>
 
@@ -166,7 +166,7 @@ const Navbar = () => {
                                         window.open('https://calendly.com/rasorybooking', '_blank', 'noopener,noreferrer');
                                     }}
                                 >
-                                    Book Appointment
+                                    Termin vereinbaren
                                 </button>
                             </li>
                         </ul>

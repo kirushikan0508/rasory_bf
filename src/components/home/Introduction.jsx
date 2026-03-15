@@ -56,24 +56,16 @@ const Sample = () => {
 
                     {/* Right Side: Content */}
                     <div className="sample-content-col sample-animate fade-in-right">
-                        <span className="sample-subtitle">OUR STORY</span>
-                        <h2 className="sample-title">Tailor-made elegance<br/>that inspires</h2>
+                        <span className="sample-subtitle">UNSERE GESCHICHTE</span>
+                        <h2 className="sample-title">Massgeschneiderte Eleganz,<br/>die begeistert</h2>
                         <div className="sample-divider"></div>
                         
                         <p className="sample-paragraph">
-                            Are you looking for an exclusive, high-quality, custom-made 
-                            garment perfectly tailored to you? Then you've come to the right 
-                            place. The world of fashion is my great passion; it all started over 
-                            ten years ago, and since then I've been creating a unique 
-                            shopping experience that will delight you. I now specialize in 
-                            creating individual, bespoke clothing. Our motto is: "Clothes make 
-                            the person," and this is exactly what my work reflects. I place 
-                            great importance on incorporating your personality and style 
-                            into every single garment...
+                            Sie suchen nach einer exklusiven, hochwertigen Massanfertigung, die perfekt auf Sie abgestimmt ist? Dann sind Sie bei mir genau richtig. Die Welt der Mode ist meine grosse Leidenschaft, vor über zehn Jahren begann alles, und seitdem sorge ich für ein einzigartiges Einkaufserlebnis, das Sie begeistern wird. Inzwischen habe ich mich auf die Anfertigung individueller Masskleidungen spezialisiert. Unser Motto lautet: „Kleidung machen Leute“ und genau das spiegelt sich in meiner Arbeit wider. Ich lege grossen Wert darauf, Ihre Persönlichkeit und Ihren Stil in jedes einzelne Kleidungsstück einfliessen zu lassen…
                         </p>
 
                         <button onClick={toggleExpand} className="sample-read-more">
-                            {isExpanded ? 'Show Less ↑' : 'Read More ↓'}
+                            {isExpanded ? 'Weniger anzeigen ↑' : 'Mehr lesen ↓'}
                         </button>
 
                         <AnimatePresence>
@@ -86,7 +78,8 @@ const Sample = () => {
                                     className="sample-expanded-content"
                                 >
                                     <p className="sample-paragraph sample-extra-text">
-                                        My goal is not only to offer you an unforgettable shopping experience, but also to create bespoke garments that perfectly reflect your individual vision. Your wishes and ideas play a central role in the entire creation process. To ensure you feel comfortable and supported from the very beginning, I will guide you with expert and professional advice and meticulous attention to detail every step of the way, from the careful selection of high-quality fabrics and the individual design of cuts and color nuances to the final fitting. Let's create your perfect garment together – bespoke, high-quality, and uniquely tailored to you. Your vision is my responsibility.
+                                        Mein Ziel ist es nicht nur, Ihnen ein unvergessliches Kauferlebnis zu bieten, sondern auch, Masskleidungen zu kreieren, die Ihre individuellen Vorstellungen perfekt widerspiegeln. Dabei spielen Ihre Wünsche und
+                                        Ideen eine zentrale Rolle im gesamten Entstehungsprozess. Damit Sie sich von Anfang an gut aufgehoben fühlen und nicht überfordert sind, stehe ich Ihnen mit meiner fachkundigen sowie professionellen Beratung und Präzision bei jedem Schritt zur Seite von der sorgfältigen Auswahl hochwertiger Stoffe über die individuelle Gestaltung von Schnitten und Farbnuancen bis hin zum letzten Fitting. Lassen Sie uns gemeinsam Ihr perfektes Kleidungsstück kreieren massgeschneidert, hochwertig und einzigartig auf Sie abgestimmt. Ihre Vorstellung ist meine Verantwortung. 
                                     </p>
                                 </motion.div>
                             )}

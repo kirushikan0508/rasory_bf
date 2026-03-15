@@ -33,27 +33,27 @@ const ShirtConsult = () => {
     const consulting = [
         {
             icon: <Handshake size={32} />,
-            title: 'Getting to know each other & discussing',
-            desc: 'At the first meeting, we take our time to understand your expectations, your daily routine and your style preferences — with a genuine interest in your personality.',
+            title: 'Kennenlernen & Besprechen',
+            desc: 'Beim ersten Treffen nehmen wir uns Zeit, um Ihre Erwartungen, Ihren Alltag und Ihre Stilvorlieben zu verstehen — mit echtem Interesse an Ihrer Persönlichkeit.',
         },
         {
             icon: <Ruler size={32} />,
-            title: 'Fit & individualization',
-            desc: 'With more than a dozen precise measurements, we define your personal fit. You choose collar style, cuff design, fabric, and finishing — each detail considered.',
+            title: 'Passform & Individualisierung',
+            desc: 'Mit mehr als einem Dutzend präziser Masse definieren wir Ihre persönliche Passform. Sie wählen Kragenform, Manschettendesign, Stoff und Verarbeitung — jedes Detail wird berücksichtigt.',
         },
         {
             icon: <Scissors size={32} />,
-            title: 'Fitting & Finishing',
-            desc: 'Every fitting is an event. Fine-tuning each detail, verifying every stitch — so that your finished shirt fits flawlessly and feels uniquely yours.',
+            title: 'Anprobe & Fertigstellung',
+            desc: 'Jede Anprobe ist ein Ereignis. Feinschliff jedes Details, Überprüfung jedes Stichs — damit Ihr fertiges Hemd makellos sitzt und sich einzigartig anfühlt.',
         },
     ];
 
     return (
         <section className="shirt-consult-section">
             <div className="shirt-consult-container">
-                <h2 className="shirt-consult-title" ref={addRef}>Our consulting concept</h2>
+                <h2 className="shirt-consult-title" ref={addRef}>Unser Beratungskonzept</h2>
                 <p className="shirt-consult-subtitle" ref={addRef}>
-                    With the modern consulting concept, we accompany you the entire way from idea to the finished shirt.
+                    Mit dem modernen Beratungskonzept begleiten wir Sie den gesamten Weg von der Idee bis zum fertigen Hemd.
                 </p>
                 <div className="shirt-consult-grid">
                     {consulting.map((item, i) => (

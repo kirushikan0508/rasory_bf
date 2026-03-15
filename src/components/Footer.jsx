@@ -16,7 +16,7 @@ const Footer = () => {
                             <span className="footer-logo-text">RASORY</span>
                         </div>
                         <p className="footer-brand-desc">
-                            Crafting elegance through made-to-measure tailoring. Experience the perfect fit with Rasory.
+                            Eleganz durch Massanfertigung. Erleben Sie die perfekte Passform mit Rasory.
                         </p>
                         <div className="footer-social">
                             <a href="#" aria-label="Instagram"><Instagram size={18} /></a>
@@ -27,29 +27,29 @@ const Footer = () => {
 
                     {/* Quick Links Column */}
                     <div className="footer-col">
-                        <h4 className="footer-col-title">Quick Links</h4>
+                        <h4 className="footer-col-title">Schnelle Links</h4>
                         <ul className="footer-col-list">
-                            <li><Link to="/about">About Us</Link></li>
+                            <li><Link to="/about">Über uns</Link></li>
                             <li><Link to="/store">Store</Link></li>
                             <li><Link to="/inspiration">Inspiration</Link></li>
-                            <li><Link to="/price-list">Price List</Link></li>
+                            <li><Link to="/price-list">Preisliste</Link></li>
                         </ul>
                     </div>
 
                     {/* Made to Measure Column */}
                     <div className="footer-col">
-                        <h4 className="footer-col-title">Made to Measure</h4>
+                        <h4 className="footer-col-title">Massanfertigung</h4>
                         <ul className="footer-col-list">
-                            <li><Link to="/made-to-measure/suit">Tailor-Made Suits</Link></li>
-                            <li><Link to="/made-to-measure/shirt">Tailor-Made Shirts</Link></li>
-                            <li><Link to="/made-to-measure/trouser">Tailor-Made Trousers</Link></li>
-                            <li><Link to="/made-to-measure/jacket">Tailor-Made Jacket</Link></li>
+                            <li><Link to="/made-to-measure/suit">Massgeschneiderte Anzüge</Link></li>
+                            <li><Link to="/made-to-measure/shirt">Massgeschneiderte Hemden</Link></li>
+                            <li><Link to="/made-to-measure/trouser">Massgeschneiderte Hosen</Link></li>
+                            <li><Link to="/made-to-measure/jacket">Massgeschneiderte Jacken</Link></li>
                         </ul>
                     </div>
 
                     {/* Contact Us Column */}
                     <div className="footer-col">
-                        <h4 className="footer-col-title">Contact Us</h4>
+                        <h4 className="footer-col-title">Kontakt</h4>
                         <ul className="footer-contact-list">
                             <li>
                                 <MapPin size={16} className="footer-contact-icon" />
@@ -70,10 +70,10 @@ const Footer = () => {
 
                 {/* Bottom Bar */}
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Rasory Tailoring. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Rasory Tailoring. Alle Rechte vorbehalten.</p>
                     <div className="footer-legal">
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms of Service</a>
+                        <a href="#">Datenschutzrichtlinie</a>
+                        <a href="#">Nutzungsbedingungen</a>
                     </div>
                 </div>
             </div>

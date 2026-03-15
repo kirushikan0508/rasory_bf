@@ -33,27 +33,27 @@ const TrouserConsult = () => {
     const consulting = [
         {
             icon: <Handshake size={32} />,
-            title: 'Getting to know each other & choosing',
-            desc: 'In the first step, we learn about your personal preferences and a range of options. Together we will look at styles, patterns and tailoring — for the perfect pair of trousers.',
+            title: 'Kennenlernen & Auswahl',
+            desc: 'Im ersten Schritt lernen wir Ihre persönlichen Vorlieben und eine Reihe von Optionen kennen. Gemeinsam schauen wir uns Stile, Muster und Schnitte an — für die perfekte Hose.',
         },
         {
             icon: <Ruler size={32} />,
-            title: 'Fit & individualization',
-            desc: 'With more than a dozen precise measurements, we ensure your personal fit. The waist height, the pleats, the leg opening — every detail is carefully adjusted to create truly individual trousers.',
+            title: 'Passform & Individualisierung',
+            desc: 'Mit mehr als einem Dutzend präziser Masse stellen wir Ihre persönliche Passform sicher. Die Bundhöhe, die Bundfalten, die Fussweite — jedes Detail wird sorgfältig angepasst, um eine wirklich individuelle Hose zu kreieren.',
         },
         {
             icon: <Scissors size={32} />,
-            title: 'Fitting & Finishing',
-            desc: 'Every fitting is carefully each detail is checked, the final result is perfectly matched to your measurements. The finishing is impeccable — you can be confident every time you wear them.',
+            title: 'Anprobe & Fertigstellung',
+            desc: 'Bei jeder Anprobe wird jedes Detail sorgfältig geprüft, das Endergebnis ist perfekt auf Ihre Masse abgestimmt. Die Verarbeitung ist tadellos — damit Sie sich bei jedem Tragen sicher fühlen können.',
         },
     ];
 
     return (
         <section className="trouser-consult-section">
             <div className="trouser-consult-container">
-                <h2 className="trouser-consult-title" ref={addRef}>Our consulting concept</h2>
+                <h2 className="trouser-consult-title" ref={addRef}>Unser Beratungskonzept</h2>
                 <p className="trouser-consult-subtitle" ref={addRef}>
-                    With the modern consulting concept, we accompany you the way from the idea to the finished product.
+                    Mit dem modernen Beratungskonzept begleiten wir Sie auf dem Weg von der Idee bis zum fertigen Produkt.
                 </p>
                 <div className="trouser-consult-grid">
                     {consulting.map((item, i) => (

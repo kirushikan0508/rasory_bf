@@ -40,12 +40,12 @@ const PriceList = () => {
     };
 
     const prices = [
-        { item: 'Stylish two-piece suits are available for the price of', price: '899.- CHF' },
-        { item: 'Elegant three-piece suits for', price: '1\'299.- CHF' },
-        { item: 'Stylish jackets, individually made for', price: '649.- CHF' },
-        { item: 'Tailor-made vests are available for', price: '339.- CHF' },
-        { item: 'Perfectly fitting trousers at the price of', price: '239.- CHF' },
-        { item: 'High-quality shirts that round off your look are available for', price: '169.- CHF' },
+        { item: 'Stilvolle zweiteilige Anzüge sind erhältlich zum Preis von', price: '899.- CHF' },
+        { item: 'Elegante dreiteilige Anzüge für', price: '1\'299.- CHF' },
+        { item: 'Stilvolle Sakkos, individuell angefertigt für', price: '649.- CHF' },
+        { item: 'Massgeschneiderte Westen sind erhältlich für', price: '339.- CHF' },
+        { item: 'Perfekt sitzende Hosen zum Preis von', price: '239.- CHF' },
+        { item: 'Hochwertige Hemden, die Ihren Look abrunden, sind erhältlich für', price: '169.- CHF' },
     ];
 
     return (
@@ -53,9 +53,9 @@ const PriceList = () => {
             <Navbar />
 
             <Hero 
-                title="Elegance & Quality at a Fair Price"
-                subtitle="Rasory Value"
-                description="First-class fabrics and expert tailoring shouldn't be out of reach. Discover our transparent pricing for bespoke creations."
+                title="Eleganz & Qualität zu einem fairen Preis"
+                subtitle="Rasory Werte"
+                description="Erstklassige Stoffe und meisterhafte Schneiderkunst sollten nicht unerreichbar sein. Entdecken Sie unsere transparenten Preise für massgeschneiderte Kreationen."
                 imageSrc={pricehero}
                 secondaryBtnText="See Price List"
                 showActions={false}
@@ -67,19 +67,19 @@ const PriceList = () => {
                     {/* Left: Pricing Info */}
                     <div className="price-info-col" ref={addRef}>
                         <h2 className="price-main-title">
-                            Elegance and quality at a fair price
+                            Eleganz und Qualität zu einem fairen Preis
                         </h2>
 
                         <p className="price-intro">
-                            I use first-class lace fabric made of pure virgin wool in the qualities
-                            Super130 to Super 200. This exclusive material guarantees durability,
-                            comfort and gives your garments a timeless elegance.
+                            Ich verwende erstklassige Stoffe aus reiner Schurwolle in den Qualitäten
+                            Super130 bis Super 200. Dieses exklusive Material garantiert Langlebigkeit,
+                            Komfort und verleiht Ihren Kleidungsstücken eine zeitlose Eleganz.
                         </p>
 
                         <p className="price-subtitle">
-                            For the high-quality Super130 quality,<br />
-                            I manufacture suits, jackets, trousers and vests at attractive prices that meet the
-                            demand for exclusivity:
+                            Für die hochwertige Super130 Qualität,<br />
+                            fertige ich Anzüge, Sakkos, Hosen und Westen zu attraktiven Preisen, die dem
+                            Anspruch an Exklusivität gerecht werden:
                         </p>
 
                         <ul className="price-items-list">
@@ -95,9 +95,10 @@ const PriceList = () => {
 
                         <div className="price-closing">
                             <p>
-                                Each garment is made according to your personal wishes and measurements for a
-                                perfect fit and maximum wearing comfort. Trust in my expertise and passion for
-                                exclusive fabrics to realize your individual style at the highest level.
+                                Jedes Kleidungsstück wird nach Ihren persönlichen Wünschen und Massen für eine
+                                perfekte Passform und maximalen Tragekomfort gefertigt. Vertrauen Sie auf meine
+                                Expertise und Leidenschaft für exklusive Stoffe, um Ihren individuellen Stil auf
+                                höchstem Niveau zu verwirklichen.
                             </p>
                         </div>
                     </div>
@@ -108,19 +109,19 @@ const PriceList = () => {
                             <div className="price-img-card price-img-top-left">
                                 <img
                                     src={price01}
-                                    alt="Tailor fitting a suit"
+                                    alt="Schneider bei der Anprobe"
                                 />
                             </div>
                             <div className="price-img-card price-img-top-right">
                                 <img
                                     src={price02}
-                                    alt="Gentleman in tailored suit"
+                                    alt="Herr im massgeschneiderten Anzug"
                                 />
                             </div>
                             <div className="price-img-card price-img-bottom">
                                 <img
                                     src={price03}
-                                    alt="Premium suit style"
+                                    alt="Premium Anzug-Stil"
                                 />
                             </div>
                         </div>

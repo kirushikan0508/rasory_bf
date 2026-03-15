@@ -31,27 +31,27 @@ const AboutValues = () => {
 
     const values = [
         {
-            title: 'An artistic approach instead of a standard solution.',
-            desc: 'We interpret your wishes with artistic flair and translate them into designs that are unlike any other garment.',
+            title: 'Ein künstlerischer Ansatz statt Standardlösung.',
+            desc: 'Wir interpretieren Ihre Wünsche mit künstlerischem Flair und setzen sie in Designs um, die keinem anderen Kleidungsstück gleichen.',
         },
         {
-            title: 'Innovative fabric technologies.',
-            desc: 'We are experimenting with innovative materials that not only look beautiful but also take your comfort into account.',
+            title: 'Innovative Stofftechnologien.',
+            desc: 'Wir experimentieren mit innovativen Materialien, die nicht nur schön aussehen, sondern auch Ihren Komfort berücksichtigen.',
         },
         {
-            title: 'Limited editions, not mass-produced goods',
-            desc: 'Our custom-made clothing is tailored to you, so you can wear a truly unique piece.',
+            title: 'Limitierte Editionen, keine Massenware',
+            desc: 'Unsere massgeschneiderte Kleidung wird auf Sie zugeschnitten, damit Sie ein echtes Unikat tragen können.',
         },
         {
-            title: 'Sustainability with high standards',
-            desc: "We believe in fashion that doesnt just look good. We place particular emphasis on fair working conditions in all stages of production, making every garment a true statement – ​​for responsibility, respect, and quality.",
+            title: 'Nachhaltigkeit mit hohen Standards',
+            desc: "Wir glauben an Mode, die nicht nur gut aussieht. Wir legen besonderen Wert auf faire Arbeitsbedingungen in allen Produktionsphasen und machen so jedes Kleidungsstück zu einem echten Statement – für Verantwortung, Respekt und Qualität.",
         },
     ];
 
     return (
         <section className="about-values-section">
             <div className="about-values-container">
-                <h2 className="about-values-title" ref={addRef}>What makes us unique?</h2>
+                <h2 className="about-values-title" ref={addRef}>Was macht uns einzigartig?</h2>
                 <div className="about-values-list">
                     {values.map((val, i) => (
                         <div

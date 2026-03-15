@@ -26,13 +26,13 @@ const InspirationTitle = () => {
     return (
         <section className="insp-title-section" ref={sectionRef}>
             <div className="insp-title-container">
-                <h1 className="insp-main-title">Discover the variety of your outfits</h1>
+                <h1 className="insp-main-title">Entdecken Sie die Vielfalt Ihrer Outfits</h1>
                 <p className="insp-main-desc">
-                    Sometimes all it takes is a small impulse to experience your own style in a new way.
-                    With us you will not find any fixed rules, but countless ways to vary your look.
-                    We show you creative combinations that stylishly enrich your everyday life –
-                    whether for a business day, a relaxed evening or special occasions.
-                    Be inspired and expand your fashion world – the perfect outfit for every moment.
+                    Manchmal braucht es nur einen kleinen Impuls, um den eigenen Stil neu zu erleben.
+                    Bei uns finden Sie keine festen Regeln, sondern unzählige Möglichkeiten, Ihren Look zu variieren.
+                    Wir zeigen Ihnen kreative Kombinationen, die Ihren Alltag stilvoll bereichern –
+                    ob für einen Geschäftstag, einen entspannten Abend oder besondere Anlässe.
+                    Lassen Sie sich inspirieren und erweitern Sie Ihre Modewelt – das perfekte Outfit für jeden Moment.
                 </p>
             </div>
         </section>

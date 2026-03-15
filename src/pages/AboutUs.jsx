@@ -15,9 +15,9 @@ const AboutUs = () => {
         <div className="about-page">
             <Navbar />
             <Hero 
-                title="Our Legacy of Elegance"
-                subtitle="The Rasory Story"
-                description="Discover the passion, heritage, and uncompromising craftsmanship behind our bespoke tailoring."
+                title="Unser Erbe der Eleganz"
+                subtitle="Die Rasory Geschichte"
+                description="Entdecken Sie die Leidenschaft, das Erbe und die kompromisslose Handwerkskunst hinter unserer Massschneiderei."
                 imageSrc={hero}
                 showActions={false}
                 // secondaryBtnText="Meet the Tailor"

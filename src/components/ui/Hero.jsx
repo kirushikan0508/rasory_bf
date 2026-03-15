@@ -9,8 +9,8 @@ const Hero = ({
     videoSrc, 
     imageSrc, 
     showActions = true, 
-    primaryBtnText = "Book Appointment", 
-    secondaryBtnText = "Learn More",
+    primaryBtnText = "TERMIN BUCHEN", 
+    secondaryBtnText = "Mehr erfahren",
     onPrimaryClick,
     onSecondaryClick
 }) => {
@@ -58,7 +58,7 @@ const Hero = ({
                     transition={{ duration: 1, delay: 0.2 }}
                     className="hero-title"
                 >
-                    {title || "Tailored to Your Presence"}
+                    {title || "Massgeschneidert für Ihren Auftritt"}
                 </motion.h1>
 
                 {description && (
@@ -104,7 +104,7 @@ const Hero = ({
                 <div className="mouse">
                     <div className="wheel"></div>
                 </div>
-                <span>Scroll</span>
+                <span>Scrollen</span>
             </motion.div>
         </section>
     );

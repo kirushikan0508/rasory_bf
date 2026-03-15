@@ -11,7 +11,7 @@ const AboutHero = () => {
             />
             <div className="about-hero-overlay"></div>
             <div className="about-hero-content">
-                <h1 className="about-hero-title">Welcome to RASORY</h1>
+                <h1 className="about-hero-title">Willkommen bei RASORY</h1>
             </div>
         </section>
     );

@@ -7,7 +7,7 @@ const SuitHero = () => {
         <section className="suit-hero">
             <img
                 src="https://images.unsplash.com/photo-1594938298596-f9fe3195ed84?auto=format&fit=crop&q=80&w=1920"
-                alt="Premium suits collection"
+                alt="Premium Anzugkollektion"
                 className="suit-hero-img"
             />
             <div className="suit-hero-overlay"></div>

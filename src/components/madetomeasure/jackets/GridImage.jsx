@@ -37,7 +37,7 @@ const GridImage = () => {
           <div className="image-wrapper">
             <img 
               src={imgup} 
-              alt="Two men in elegant white double-breasted suits" 
+              alt="Zwei Männer in eleganten weissen Zweireiher-Anzügen" 
               className="grid-img"
             />
             <div className="hover-overlay">
@@ -52,7 +52,7 @@ const GridImage = () => {
             <div className="image-wrapper">
               <img 
                 src={leftdown} 
-                alt="Man in black double-breasted suit" 
+                alt="Mann im schwarzen Zweireiher-Anzug" 
                 className="grid-img"
               />
               <div className="hover-overlay">
@@ -65,7 +65,7 @@ const GridImage = () => {
             <div className="image-wrapper">
               <img 
                 src={centerdown} 
-                alt="Man in elegant dark three-piece suit" 
+                alt="Mann im eleganten dunklen Dreiteiler" 
                 className="grid-img"
               />
               <div className="hover-overlay">
@@ -78,7 +78,7 @@ const GridImage = () => {
             <div className="image-wrapper">
               <img 
                 src={rightdown} 
-                alt="Man adjusting tailored suit jacket" 
+                alt="Mann richtet massgeschneidertes Sakko" 
                 className="grid-img"
               />
               <div className="hover-overlay">

@@ -19,9 +19,9 @@ const MadeToMeasureShirt = () => {
         <div className="shirt-page">
             <Navbar />
             <Hero
-                title="The Perfect Fit, Redefined"
-                subtitle="Premium Tailor-Made Shirts"
-                description="From fabric selection to the final stitch, our custom shirts are crafted to provide unparalleled comfort and style."
+                title="Die perfekte Passform, neu definiert"
+                subtitle="Premium Masshemden"
+                description="Von der Stoffauswahl bis zum letzten Stich werden unsere massgeschneiderten Hemden so gefertigt, dass sie unvergleichlichen Komfort und Stil bieten."
                 imageSrc="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&q=80&w=1920"
                 showActions={false}
             />

@@ -7,18 +7,18 @@ const Detail = () => {
   const steps = [
     {
       icon: <Grid size={32} strokeWidth={1.5} />,
-      title: "Getting to know each other & selection",
-      description: "As a first step, I invite you to a relaxed chat over a cup of coffee. Together, we'll discuss your wishes, ideas, and desired style. We'll select high-quality fabrics, patterns, and colors to create the foundation for your personalized garment."
+      title: "Kennenlernen & Auswahl",
+      description: "Als ersten Schritt lade ich Sie zu einem entspannten Gespräch bei einer Tasse Kaffee ein. Gemeinsam besprechen wir Ihre Wünsche, Vorstellungen und den gewünschten Stil. Wir wählen hochwertige Stoffe, Muster und Farben aus, um die Basis für Ihr persönliches Kleidungsstück zu schaffen."
     },
     {
       icon: <PencilLine size={32} strokeWidth={1.5} />,
-      title: "Fit & Customization",
-      description: "In this phase, we take your precise measurements to ensure an optimal fit. We then design the details - lapels, seam colors, buttons, lining, and any special requests such as custom embroidery or lapel shapes. Together, we create a unique garment perfectly tailored to you."
+      title: "Passform & Individualisierung",
+      description: "In dieser Phase nehmen wir Ihre genauen Masse auf, um eine optimale Passform zu gewährleisten. Danach gestalten wir die Details – Revers, Nahtfarben, Knöpfe, Innenfutter sowie spezielle Wünsche wie individuelle Stickereien oder Reversformen. Gemeinsam kreieren wir ein einzigartiges, perfekt auf Sie zugeschnittenes Kleidungsstück."
     },
     {
       icon: <Ruler size={32} strokeWidth={1.5} />,
-      title: "Fitting & Completion",
-      description: "During the fitting, we check the fit and comfort and make any necessary final adjustments. Finally, we complete your outfit with matching accessories to perfect your look in a personal and stylish way."
+      title: "Anprobe & Fertigstellung",
+      description: "Bei der Anprobe überprüfen wir Passform und Komfort und nehmen bei Bedarf letzte Anpassungen vor. Abschliessend vervollständigen wir Ihr Outfit mit passenden Accessoires, um Ihren Look persönlich und stilvoll zu perfektionieren."
     }
   ];
 
@@ -31,8 +31,8 @@ const Detail = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <h2>Our consulting concept</h2>
-        <p>With this structured consulting concept, we accompany you on your journey from the initial idea to the final look.</p>
+        <h2>Unser Beratungskonzept</h2>
+        <p>Mit diesem strukturierten Beratungskonzept begleiten wir Sie auf Ihrem Weg von der ersten Idee bis zum finalen Look.</p>
       </motion.div>
 
       <div className="shirt-detail-grid">

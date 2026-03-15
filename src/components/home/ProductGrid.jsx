@@ -9,26 +9,26 @@ import './ProductGrid.css';
 
 const products = [
     {
-        subtitle: "Elegance that inspires",
-        buttonText: "TAILOR-MADE SUITS",
+        subtitle: "Eleganz, die begeistert",
+        buttonText: "massanzüge",
         image: suits,
         link: "/made-to-measure/suit"
     },
     {
-        subtitle: "Feels like a second skin",
-        buttonText: "MADE-TO-MEASURE SHIRTS",
+        subtitle: "Fühlt sich an wie eine zweite Haut",
+        buttonText: "masshemden",
         image: shirts,
         link: "/made-to-measure/shirt"
     },
     {
-        subtitle: "Comfort and elegance made to measure",
-        buttonText: "TAILOR-MADE TROUSERS",
+        subtitle: "Komfort und Eleganz nach Mass",
+        buttonText: "masshose",
         image: pants,
         link: "/made-to-measure/trouser"
     },
     {
-        subtitle: "Focus on your individual style",
-        buttonText: "MADE-TO-MEASURE JACKET",
+        subtitle: "ihr individueller Stil im Fokus",
+        buttonText: "masssakko",
         image: jacket,
         link: "/made-to-measure/jacket"
     }
@@ -45,9 +45,9 @@ const ProductGrid = () => {
                     transition={{ duration: 0.8 }}
                     className="section-header"
                 >
-                    <span className="section-label">Collections</span>
-                    <h2 className="section-title">Made-to-Measure Clothing</h2>
-                    <p className="section-description">Here you will find our different areas in which we can realize your vision together.</p>
+                    <span className="section-label">Kollektionen</span>
+                    <h2 className="section-title">Massgeschneiderte Kleidung</h2>
+                    <p className="section-description">Hier finden Sie unsere verschiedenen Bereiche, in denen wir gemeinsam Ihre Vision verwirklichen können.</p>
                 </motion.div>
 
                 <div className="cards-grid">

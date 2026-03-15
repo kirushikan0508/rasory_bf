@@ -20,9 +20,9 @@ const MadeToMeasureTrouser = () => {
         <div className="trouser-page">
             <Navbar />
             <Hero
-                title="Precision in Every Fold"
-                subtitle="Custom Tailored Trousers"
-                description="Experience perfect fit and unmatched comfort with our bespoke trousers, tailored to your exact measurements and preference."
+                title="Präzision in jeder Falte"
+                subtitle="Massgeschneiderte Hosen"
+                description="Erleben Sie perfekte Passform und unübertroffenen Komfort mit unseren massgeschneiderten Hosen, genau nach Ihren Massen und Vorlieben gefertigt."
                 imageSrc={panthero}
                 showActions={false}
             />

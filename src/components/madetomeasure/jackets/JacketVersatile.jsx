@@ -26,12 +26,9 @@ const JacketVersatile = () => {
     return (
         <section className="jacket-versatile-section">
             <div className="jacket-versatile-container" ref={sectionRef}>
-                <h2 className="jacket-versatile-title">Versatility meets style</h2>
+                <h2 className="jacket-versatile-title">Vielseitigkeit trifft auf Stil</h2>
                 <p className="jacket-versatile-desc">
-                    Whether ready-to-go or combined as an eye-catcher on a special occasion — the jacket is our classic that offers the
-                    widest form of expression in a wardrobe. It's casual, sophisticated, modern and elegant at the same time. Choose
-                    the perfect cut for an effortless elegance that makes you stand out, and the refined tailoring experience that is
-                    unmatched in quality and individual in its expression.
+                    Ob sofort einsatzbereit oder als Hingucker zu einem besonderen Anlass kombiniert — das Sakko ist unser Klassiker, der die vielfältigste Ausdrucksform in einer Garderobe bietet. Es ist leger, anspruchsvoll, modern und elegant zugleich. Wählen Sie den perfekten Schnitt für eine mühelose Eleganz, die Sie hervorhebt, und das raffinierte Schneidererlebnis, das unvergleichlich in Qualität und individuell im Ausdruck ist.
                 </p>
             </div>
         </section>

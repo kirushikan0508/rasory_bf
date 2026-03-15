@@ -21,9 +21,9 @@ const MadeToMeasureSuit = () => {
         <div className="suit-page">
             <Navbar />
             <Hero 
-                title="Elegance Without Compromise"
-                subtitle="Exquisite Two & Three Piece Suits"
-                description="Masterfully crafted bespoke suits that embody your personal success and uncompromising standards of quality."
+                title="Eleganz ohne Kompromisse"
+                subtitle="Exquisite Zwei- & Dreiteiler"
+                description="Meisterhaft gefertigte Massanzüge, die Ihren persönlichen Erfolg und Ihre kompromisslosen Qualitätsansprüche verkörpern."
                 imageSrc="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=1920"
                 showActions={false}
             />

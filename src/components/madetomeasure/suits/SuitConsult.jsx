@@ -33,27 +33,27 @@ const SuitConsult = () => {
     const consultation = [
         {
             icon: <Handshake size={32} />,
-            title: 'Reservation & Arrival',
-            desc: 'At first glance, first conversation — we get to know your goals, lifestyle, and style ambitions in a no-pressure consultation.',
+            title: 'Terminvereinbarung & Ankunft',
+            desc: 'Auf den ersten Blick, das erste Gespräch — wir lernen Ihre Ziele, Ihren Lebensstil und Ihre Stilambitionen in einer unverbindlichen Beratung kennen.',
         },
         {
             icon: <Ruler size={32} />,
-            title: 'Precision Measurement',
-            desc: 'With over 30 measurements, we ensure a silhouette that feels custom-made for every line and curve of your frame.',
+            title: 'Präzisionsvermessung',
+            desc: 'Mit über 30 Massen sorgen wir für eine Silhouette, die sich für jede Linie und Kurve Ihres Körpers massgeschneidert anfühlt.',
         },
         {
             icon: <Sparkles size={32} />,
-            title: 'Selection & Production',
-            desc: 'Every finishing detail, every unique combination — we start with nothing but excellence and precision.',
+            title: 'Auswahl & Produktion',
+            desc: 'Jedes abschliessende Detail, jede einzigartige Kombination — wir beginnen mit nichts als Exzellenz und Präzision.',
         },
     ];
 
     return (
         <section className="suit-consult-section">
             <div className="suit-consult-container">
-                <h2 className="suit-consult-title" ref={addRef}>Our Consultation Concept</h2>
+                <h2 className="suit-consult-title" ref={addRef}>Unser Beratungskonzept</h2>
                 <p className="suit-consult-subtitle" ref={addRef}>
-                    We accompany you from inspiration to finished product — step by step, entirely bespoke.
+                    Wir begleiten Sie von der Inspiration bis zum fertigen Produkt — Schritt für Schritt, komplett nach Mass.
                 </p>
                 <div className="suit-consult-grid">
                     {consultation.map((item, i) => (

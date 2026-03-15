@@ -28,8 +28,8 @@ const Hero = () => {
                     transition={{ duration: 1, delay: 0.2 }}
                     className="hero-title"
                 >
-                    Tailored to Your <br />
-                    <span className="gold-text">Presence</span>
+                    Massgeschneidert für Ihre <br />
+                    <span className="gold-text">Präsenz</span>
                 </motion.h1>
 
                 <motion.p
@@ -38,8 +38,8 @@ const Hero = () => {
                     transition={{ duration: 1, delay: 0.6 }}
                     className="hero-description"
                 >
-                    Elevate your personal style with bespoke craftsmanship.
-                    Every stitch is a statement of power, elegance, and individuality.
+                    Unterstreichen Sie Ihren persönlichen Stil mit massgeschneiderter Handwerkskunst.
+                    Jeder Stich ist ein Statement von Kraft, Eleganz und Individualität.
                 </motion.p>
 
                 <motion.div
@@ -48,8 +48,8 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.8 }}
                     className="hero-actions"
                 >
-                    <button className="btn-primary glow-effect">Book Appointment</button>
-                    <button className="btn-secondary glow-effect">Explore Collection</button>
+                    <button className="btn-primary glow-effect">Termin vereinbaren</button>
+                    <button className="btn-secondary glow-effect">Kollektion entdecken</button>
                 </motion.div>
             </div>
 
@@ -62,7 +62,7 @@ const Hero = () => {
                 <div className="mouse">
                     <div className="wheel"></div>
                 </div>
-                <span>Scroll</span>
+                <span>Scrollen</span>
             </motion.div>
         </section>
     );

@@ -15,8 +15,8 @@ function Home() {
             <Navbar />
             <main>
                 <Hero
-                    title={<>Tailored to Your <br /><span className="gold-text">Presence</span></>}
-                    description="Elevate your personal style with bespoke craftsmanship. Every stitch is a statement of power, elegance, and individuality."
+                    title={<>Massgeschneidert für Ihren <br /><span className="gold-text">Auftritt</span></>}
+                    description="Heben Sie Ihren persönlichen Stil mit massgeschneiderter Handwerkskunst hervor. Jeder Stich ist ein Statement von Kraft, Eleganz und Individualität."
                     videoSrc="https://cdn.pixabay.com/video/2024/03/29/206029_large.mp4"
                     imageSrc="https://images.unsplash.com/photo-1594932224010-74f4raw-2a2?auto=format&fit=crop&q=80&w=2000"
                 />

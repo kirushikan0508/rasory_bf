@@ -6,24 +6,24 @@ import './ConsultingSection.css';
 const steps = [
     {
         id: 1,
-        title: "Consultation",
+        title: "Kennenlernen & Auswahl",
         icon: <MessageSquare size={32} />,
-        shortDesc: "Understanding your vision.",
-        fullDesc: "We begin with a personal consultation to understand your lifestyle, preferences, and the occasion. Whether over a coffee or in our studio, we discuss style, fit, and your unique requirements."
+        shortDesc: "Wir verstehen Ihre Vision.",
+        fullDesc: "Im ersten Schritt lade ich Sie zu einem entspannten Gespräch bei einer Tasse Kaffee ein. Gemeinsam klären wir Ihre Wünsche, Vorstellungen und den gewünschten Stil. Wir wählen hochwertige Stoffe, Muster und Farben aus, um die Basis für Ihr persönliches Kleidungsstück zu schaffen."
     },
     {
         id: 2,
-        title: "Fabric Selection",
+        title: "Passform & Individualisierung",
         icon: <Layers size={32} />,
-        shortDesc: "Curated premium materials.",
-        fullDesc: "Choose from our exclusive collection of the world's finest fabrics. We guide you through textures, weights, and patterns to find the perfect material that complements your design and purpose."
+        shortDesc: "Kuratierte Premium-Materialien.",
+        fullDesc: "In dieser Phase nehmen wir präzise Ihre Masse, um eine optimale Passform zu gewährleisten. Anschliessend gestalten wir die Details – Revers, Nahtfarben, Knöpfe, Innenfutter sowie besondere Wünsche wie spezielle Stickereien oder Reversformen. Gemeinsam schaffen wir ein Unikat, das perfekt auf Sie abgestimmt ist."
     },
     {
         id: 3,
-        title: "Fitting & Delivery",
+        title: "Anprobe & Abschluss",
         icon: <Scissors size={32} />,
-        shortDesc: "Perfecting the fit.",
-        fullDesc: "Our master tailors conduct multiple fittings to ensure every millimeter is precise. The process concludes only when you are completely satisfied with the fit, comfort, and silhouette of your garment."
+        shortDesc: "Perfektionierung der Passform.",
+        fullDesc: "Bei der Anprobe prüfen wir Passform und Tragegefühl und nehmen, falls nötig, letzte Feinabstimmungen vor. Zum Abschluss runden wir Ihr Outfit mit passenden Accessoires ab, um Ihren Look individuell und stilvoll zu perfektionieren."
     }
 ];
 
@@ -44,9 +44,9 @@ const ConsultingSection = () => {
                     transition={{ duration: 0.8 }}
                     className="section-header"
                 >
-                    <span className="section-label">The Journey</span>
-                    <h2 className="section-title">Our Tailoring Process</h2>
-                    <p className="section-description">A structured journey from the initial spark of an idea to your final masterpiece.</p>
+                    <span className="section-label">Der Weg</span>
+                    <h2 className="section-title">Unsere Beratungskonzept</h2>
+                    <p className="section-description">Mit diesem strukturierten Beratungskonzept begleiten wir Sie auf dem Weg, von der ersten Idee bis zum finalen Look.</p>
                 </motion.div>
 
                 <div className="stepper-container">

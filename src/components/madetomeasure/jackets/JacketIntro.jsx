@@ -26,12 +26,9 @@ const JacketIntro = () => {
     return (
         <section className="jacket-intro-section" ref={sectionRef}>
             <div className="jacket-intro-container">
-                <h1 className="jacket-intro-title">Focus on your individual style</h1>
+                <h1 className="jacket-intro-title">Im Fokus steht Ihr individueller Stil</h1>
                 <p className="jacket-intro-text">
-                    We focus on the personal design of your jacket. From the finest selection of natural materials to precise cuts, our
-                    specialization lies in jackets. The details of tailoring craftsmanship create a perfect product. With us, there are elegant
-                    business looks, figures using casual and yet exclusive jackets and coats. We offer our customers advice, solutions, and the
-                    high standard to create the finest garment of your individual wardrobe.
+                    Wir legen den Fokus auf das persönliche Design Ihres Sakkos. Von der feinsten Auswahl natürlicher Materialien bis hin zu präzisen Schnitten liegt unsere Spezialisierung bei Sakkos. Die Details der Schneiderkunst schaffen ein perfektes Produkt. Bei uns finden Sie elegante Business-Looks, figurbetonende legere und doch exklusive Sakkos und Mäntel. Wir bieten unseren Kunden Beratung, Lösungen und den hohen Anspruch, das feinste Kleidungsstück Ihrer individuellen Garderobe zu schaffen.
                 </p>
             </div>
         </section>

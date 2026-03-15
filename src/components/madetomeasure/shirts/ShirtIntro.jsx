@@ -26,9 +26,9 @@ const ShirtIntro = () => {
     return (
         <section className="shirt-intro-section" ref={sectionRef}>
             <div className="shirt-intro-container">
-                <h1 className="shirt-intro-title">Perfection that feels like a second skin</h1>
+                <h1 className="shirt-intro-title">Perfektion, die sich wie eine zweite Haut anfühlt</h1>
                 <p className="shirt-intro-text">
-                    Your individual fit is my top priority. My goal is for your bespoke shirt to fit you like a second skin – comfortable and perfectly tailored. Together, we'll choose the right collar style and cuffs to accentuate your personal taste. I pay meticulous attention to quality and detail, ensuring that every shirt is unique.
+                    Ihre individuelle Passform steht für mich an erster Stelle. Mein Ziel ist es, dass Ihr massgeschneidertes Hemd sitzt wie eine zweite Haut – bequem und perfekt zugeschnitten. Gemeinsam wählen wir die passende Kragenform und Manschetten, um Ihren persönlichen Geschmack zu unterstreichen. Dabei achte ich akribisch auf Qualität und Details, sodass jedes Hemd zu einem Unikat wird.
                 </p>
             </div>
         </section>

@@ -13,9 +13,9 @@ const Inspiration = () => {
         <div className="insp-page">
             <Navbar />
             <Hero
-                title="A World of Sartorial Inspiration"
-                subtitle="Curated Style & Visuals"
-                description="Explore our gallery of classic and contemporary looks to find the perfect inspiration for your next bespoke creation."
+                title="Eine Welt der modischen Inspiration"
+                subtitle="Kuratierter Stil & Visuals"
+                description="Entdecken Sie unsere Galerie klassischer und moderner Looks, um die perfekte Inspiration für Ihre nächste massgeschneiderte Kreation zu finden."
                 imageSrc="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1920"
                 // secondaryBtnText="See Gallery"
                 showActions={false}

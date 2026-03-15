@@ -20,9 +20,9 @@ const MadeToMeasureJacket = () => {
         <div className="jacket-page">
             <Navbar />
             <Hero 
-                title="Crafted for the Modern Gentleman"
-                subtitle="Bespoke Jackets & Blazers"
-                description="Experience the pinnacle of sartorial elegance with our custom-tailored jackets, designed to enhance your presence."
+                title="Gemacht für den modernen Gentleman"
+                subtitle="Massgeschneiderte Sakkos & Blazer"
+                description="Erleben Sie den Gipfel der modischen Eleganz mit unseren massgeschneiderten Sakkos, entworfen, um Ihre Präsenz zu unterstreichen."
                 imageSrc={heroimage}
                 showActions={false}
             />

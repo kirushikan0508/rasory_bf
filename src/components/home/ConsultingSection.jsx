@@ -6,24 +6,24 @@ import './ConsultingSection.css';
 const steps = [
     {
         id: 1,
-        title: "Consultation",
+        title: "Beratung",
         icon: <MessageSquare size={32} />,
-        shortDesc: "Understanding your vision.",
-        fullDesc: "We begin with a personal consultation to understand your lifestyle, preferences, and the occasion. Whether over a coffee or in our studio, we discuss style, fit, and your unique requirements."
+        shortDesc: "Ihre Vision verstehen.",
+        fullDesc: "Wir beginnen mit einer persönlichen Beratung, um Ihren Lebensstil, Ihre Vorlieben und den Anlass zu verstehen. Ob bei einem Kaffee oder in unserem Atelier, wir besprechen Stil, Passform und Ihre individuellen Anforderungen."
     },
     {
         id: 2,
-        title: "Fabric Selection",
+        title: "Stoffauswahl",
         icon: <Layers size={32} />,
-        shortDesc: "Curated premium materials.",
-        fullDesc: "Choose from our exclusive collection of the world's finest fabrics. We guide you through textures, weights, and patterns to find the perfect material that complements your design and purpose."
+        shortDesc: "Kuratierte Premium-Materialien.",
+        fullDesc: "Wählen Sie aus unserer exklusiven Kollektion der feinsten Stoffe der Welt. Wir führen Sie durch Texturen, Gewichte und Muster, um das perfekte Material zu finden, das Ihr Design und Ihren Zweck ergänzt."
     },
     {
         id: 3,
-        title: "Fitting & Delivery",
+        title: "Anprobe & Übergabe",
         icon: <Scissors size={32} />,
-        shortDesc: "Perfecting the fit.",
-        fullDesc: "Our master tailors conduct multiple fittings to ensure every millimeter is precise. The process concludes only when you are completely satisfied with the fit, comfort, and silhouette of your garment."
+        shortDesc: "Die Passform perfektionieren.",
+        fullDesc: "Unsere Schneidermeister führen mehrere Anproben durch, um sicherzustellen, dass jeder Millimeter präzise ist. Der Prozess ist erst abgeschlossen, wenn Sie mit Passform, Komfort und Silhouette Ihres Kleidungsstücks vollkommen zufrieden sind."
     }
 ];
 
@@ -44,9 +44,9 @@ const ConsultingSection = () => {
                     transition={{ duration: 0.8 }}
                     className="section-header"
                 >
-                    <span className="section-label">The Journey</span>
-                    <h2 className="section-title">Our Tailoring Process</h2>
-                    <p className="section-description">A structured journey from the initial spark of an idea to your final masterpiece.</p>
+                    <span className="section-label">Der Weg</span>
+                    <h2 className="section-title">Unsere Beratungskonzept</h2>
+                    <p className="section-description">Eine strukturierte Reise vom ersten Funken einer Idee bis zu Ihrem finalen Meisterwerk.</p>
                 </motion.div>
 
                 <div className="stepper-container">

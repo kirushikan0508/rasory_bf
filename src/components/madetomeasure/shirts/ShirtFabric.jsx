@@ -33,7 +33,7 @@ const Fabric = () => {
   return (
     <section className="fabric-section">
       <div className="fabric-header">
-        <h2>Top-quality fabrics</h2>
+        <h2>Stoffe in Top-Qualität</h2>
       </div>
 
       <div className="fabric-slider-container">

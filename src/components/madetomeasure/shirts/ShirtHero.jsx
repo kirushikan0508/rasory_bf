@@ -7,7 +7,7 @@ const ShirtHero = () => {
         <section className="shirt-hero">
             <img
                 src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1920"
-                alt="Premium shirts collection"
+                alt="Premium Hemdenkollektion"
                 className="shirt-hero-img"
             />
             <div className="shirt-hero-overlay"></div>

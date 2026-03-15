@@ -26,9 +26,9 @@ const SuitQuality = () => {
     return (
         <section className="suit-quality-section">
             <div className="suit-quality-container" ref={sectionRef}>
-                <h2 className="suit-quality-title">Quality that takes its time</h2>
+                <h2 className="suit-quality-title">Qualität, die ihre Zeit braucht</h2>
                 <p className="suit-quality-desc">
-                    Production typically takes up to four weeks. If needed, I also offer an express service within three weeks. Quality and precision are my top priorities, ensuring you receive a unique garment.
+                    Die Produktion dauert in der Regel bis zu vier Wochen. Bei Bedarf biete ich auch einen Express-Service innerhalb von drei Wochen an. Qualität und Präzision stehen für mich an erster Stelle, um sicherzustellen, dass Sie ein einzigartiges Kleidungsstück erhalten.
                 </p>
             </div>
         </section>

@@ -27,7 +27,7 @@ const SuitDesc = () => {
         <section className="suit-desc-section" ref={sectionRef}>
             <div className="suit-desc-container">
                 <p>
-                    By meticulously working through each stage, we combine precision with dedication to create a result that not only fits perfectly but also reflects your unique personality. Whether you desire an elegant business suit or a formal suit for special occasions, I will craft your bespoke suit, perfectly tailored to your needs.
+                    Durch die akribische Bearbeitung jeder Phase verbinden wir Präzision mit Hingabe, um ein Ergebnis zu erzielen, das nicht nur perfekt passt, sondern auch Ihre einzigartige Persönlichkeit widerspiegelt. Ob Sie einen eleganten Business-Anzug oder einen formellen Anzug für besondere Anlässe wünschen, ich fertige Ihren massgeschneiderten Anzug, perfekt auf Ihre Bedürfnisse zugeschnitten.
                 </p>
             </div>
         </section>

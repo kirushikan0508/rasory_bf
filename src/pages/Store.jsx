@@ -43,9 +43,9 @@ const Store = () => {
             <Navbar />
 
             <Hero 
-                title="Our Flagship Store"
+                title="Unser Flagship-Store"
                 subtitle="Rasory Bern"
-                description="Step into our world of elegance. Experience the perfect blend of traditional craftsmanship and modern luxury in the heart of Bern."
+                description="Treten Sie ein in unsere Welt der Eleganz. Erleben Sie die perfekte Mischung aus traditioneller Handwerkskunst und modernem Luxus im Herzen von Bern."
                 imageSrc="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1920"
                 // secondaryBtnText="Find Location"
                 showActions={false}
@@ -68,14 +68,14 @@ const Store = () => {
                             </div>
 
                             <div className="store-hours-block">
-                                <h3 className="store-hours-title">OPENING HOURS</h3>
+                                <h3 className="store-hours-title">ÖFFNUNGSZEITEN</h3>
                                 <div className="store-hours-list">
                                 <div className="store-hours-row">
-                                    <span className="hours-day">Monday – Friday</span>
+                                    <span className="hours-day">Montag – Freitag</span>
                                     <span className="hours-time">8.30 am – 6.00 pm</span>
                                 </div>
                                 <div className="store-hours-row">
-                                    <span className="hours-day">Saturday</span>
+                                    <span className="hours-day">Samstag</span>
                                     <span className="hours-time">9.00 am – 5.00 pm</span>
                                 </div>
                             </div>
@@ -87,19 +87,19 @@ const Store = () => {
                                 <MapPin size={16} /> Bern
                             </a>
                             <Link to="/booking" className="store-action-link">
-                                <CalendarCheck size={16} /> BOOK AN APPOINTMENT
+                                <CalendarCheck size={16} /> TERMIN VEREINBAREN
                             </Link>
                             <a href="mailto:store@rasory.ch" className="store-action-link">
-                                <Mail size={16} /> WRITE AN E-MAIL
+                                <Mail size={16} /> E-MAIL SCHREIBEN
                             </a>
                         </div>
 
                         <div className="store-description">
                             <p>
-                                Enter our store and discover the world of elegance. Experience our excellent
-                                customer service, which combines masterpieces of craftsmanship, perfect fit and
-                                high-quality fabrics. Feel the subtle elegance that characterizes each individual
-                                garment.
+                                Betreten Sie unseren Store und entdecken Sie die Welt der Eleganz. Erleben Sie unseren exzellenten
+                                Kundenservice, der Meisterwerke der Handwerkskunst, perfekte Passform und
+                                hochwertige Stoffe vereint. Spüren Sie die subtile Eleganz, die jedes einzelne
+                                Kleidungsstück auszeichnet.
                             </p>
                         </div>
                     </div>
@@ -110,19 +110,19 @@ const Store = () => {
                             <div className="store-img-card store-img-tall">
                                 <img
                                     src={imgmain}
-                                    alt="Tailor measuring client"
+                                    alt="Schneider beim Massnehmen"
                                 />
                             </div>
                             <div className="store-img-card store-img-top-right">
                                 <img
                                     src={imgleft1}
-                                    alt="Pinstripe suit on mannequin"
+                                    alt="Nadelstreifenanzug auf Schaufensterpuppe"
                                 />
                             </div>
                             <div className="store-img-card store-img-bottom-right">
                                 <img
                                     src={imgright}
-                                    alt="Fabrics on hangers"
+                                    alt="Stoffe auf Kleiderbügeln"
                                 />
                             </div>
                         </div>

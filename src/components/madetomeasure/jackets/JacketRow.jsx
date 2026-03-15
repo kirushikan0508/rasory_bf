@@ -41,7 +41,7 @@ const JacketRow = () => {
             <div className="jacket-row-grid">
                 {jacketImages.map((src, i) => (
                     <div className="jacket-row-card" key={i} ref={addRef} style={{ transitionDelay: `${i * 0.1}s` }}>
-                        <img src={src} alt={`Jacket style ${i + 1}`} />
+                        <img src={src} alt={`Sakko-Stil ${i + 1}`} />
                     </div>
                 ))}
             </div>
