@@ -26,9 +26,9 @@ const ShirtIntro = () => {
     return (
         <section className="shirt-intro-section" ref={sectionRef}>
             <div className="shirt-intro-container">
-                <h1 className="shirt-intro-title">Perfektion, die sich wie eine zweite Haut anfühlt</h1>
+                <h1 className="shirt-intro-title">Perfektion, die sich wie ein zweite Haut anfühlt</h1>
                 <p className="shirt-intro-text">
-                    Ihre individuelle Passform steht für mich an erster Stelle. Mein Ziel ist es, dass Ihr massgeschneidertes Hemd sitzt wie eine zweite Haut – bequem und perfekt zugeschnitten. Gemeinsam wählen wir die passende Kragenform und Manschetten, um Ihren persönlichen Geschmack zu unterstreichen. Dabei achte ich akribisch auf Qualität und Details, sodass jedes Hemd zu einem Unikat wird.
+                    Bei mir steht Ihre individuelle Passform im Mittelpunkt. Mein Ziel ist es, dass Ihr maßgeschneidertes Hemd sich an Sie anpasst wie eine zweite Haut, komfortabel und perfekt sitzend. Gemeinsam wählen wir die passende Kragenform und die passenden Manschetten aus, um Ihren persönlichen Stil zu unterstreichen. Dabei achte ich auf höchste Qualität und sorgfältige Details, damit jedes Hemd ein Unikat wird..
                 </p>
             </div>
         </section>

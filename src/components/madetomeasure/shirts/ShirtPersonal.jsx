@@ -26,9 +26,9 @@ const ShirtPersonal = () => {
     return (
         <section className="shirt-personal-section">
             <div className="shirt-personal-container" ref={sectionRef}>
-                <h2 className="shirt-personal-title">Persönlich, stilvoll, vielseitig</h2>
+                <h2 className="shirt-personal-title">Persönlich, Stilvoll, Vielseitig</h2>
                 <p className="shirt-personal-desc">
-                    Ein massgeschneidertes Hemd bietet unzählige Kombinationsmöglichkeiten, um Ihren persönlichen Stil perfekt zu unterstreichen. Ob für den Berufsalltag, einen eleganten Anlass oder einen entspannten Freizeit-Look, unsere Hemden passen sich Ihren Bedürfnissen an und sorgen für einen anspruchsvollen, persönlichen Stil, mit dem Sie Selbstbewusstsein und Stil ausstrahlen können. Lassen Sie sich von Qualität und Stil inspirieren.
+                    Ein individuell angefertigtes Hemd bietet unzählige Kombinationsmöglichkeiten, um Ihren persönlichen Stil perfekt zu unterstreichen. Ob für den Arbeitstag, ein elegantes Event oder den entspannten Freizeitlook, unsere Hemden passen sich Ihren Bedürfnissen an und sorgen für einen eleganten, persönlichen Look, mit dem Sie souverän und stilvoll auftreten. Lassen Sie sich von Qualität und Stil inspirieren.
                 </p>
             </div>
         </section>

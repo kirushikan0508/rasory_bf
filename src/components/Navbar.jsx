@@ -35,7 +35,7 @@ const Navbar = () => {
             name: 'MASSANFERTIGUNG',
             path: '#',
             dropdown: [
-                { name: 'masshemden', path: '/made-to-measure/shirt' },
+                { name: 'MASSHEMD', path: '/made-to-measure/shirt' },
                 { name: 'masshose', path: '/made-to-measure/trouser' },
                 { name: 'massanzüge', path: '/made-to-measure/suit' },
                 { name: 'masssakko', path: '/made-to-measure/jacket' },
