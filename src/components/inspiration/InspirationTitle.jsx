@@ -28,11 +28,7 @@ const InspirationTitle = () => {
             <div className="insp-title-container">
                 <h1 className="insp-main-title">Entdecken Sie die Vielfalt Ihrer Outfits</h1>
                 <p className="insp-main-desc">
-                    Manchmal braucht es nur einen kleinen Impuls, um den eigenen Stil neu zu erleben.
-                    Bei uns finden Sie keine festen Regeln, sondern unzählige Möglichkeiten, Ihren Look zu variieren.
-                    Wir zeigen Ihnen kreative Kombinationen, die Ihren Alltag stilvoll bereichern –
-                    ob für einen Geschäftstag, einen entspannten Abend oder besondere Anlässe.
-                    Lassen Sie sich inspirieren und erweitern Sie Ihre Modewelt – das perfekte Outfit für jeden Moment.
+                    Manchmal braucht es nur einen kleinen Impuls, um den eigenen Stil neu zu erleben. Bei uns finden Sie keine festen Regeln, sondern unzählige Wege, Ihren Look zu variieren. Wir zeigen Ihnen kreative Kombinationen, die Ihren Alltag stilvoll bereichern – egal ob für den Business-Tag, einen entspannten Abend oder besondere Anlässe. Lassen Sie sich inspirieren und erweitern Sie Ihre Modewelt – für jeden Moment das perfekte Outfit.
                 </p>
             </div>
         </section>

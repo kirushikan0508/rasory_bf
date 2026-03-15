@@ -40,12 +40,12 @@ const PriceList = () => {
     };
 
     const prices = [
-        { item: 'Stilvolle zweiteilige Anzüge sind erhältlich zum Preis von', price: '899.- CHF' },
-        { item: 'Elegante dreiteilige Anzüge für', price: '1\'299.- CHF' },
-        { item: 'Stilvolle Sakkos, individuell angefertigt für', price: '649.- CHF' },
-        { item: 'Massgeschneiderte Westen sind erhältlich für', price: '339.- CHF' },
-        { item: 'Perfekt sitzende Hosen zum Preis von', price: '239.- CHF' },
-        { item: 'Hochwertige Hemden, die Ihren Look abrunden, sind erhältlich für', price: '169.- CHF' },
+        { item: 'Stilvolle zweiteilige Anzüge erhalten Sie zum Preis von ', price: '899.- CHF' },
+        { item: 'Elegante dreiteilige Anzüge für ', price: '1\'299.- CHF' },
+        { item: 'Stilvolle Sakkos, individuell gefertigt für ', price: '649.- CHF' },
+        { item: 'Massgeschneiderte Westen erhalten Sie für ', price: '339.- CHF' },
+        { item: 'Perfekt sitzende Hosen zum Preis von ', price: '239.- CHF' },
+        { item: 'Hochwertige Hemden, die Ihren Look abrunden, erhalten Sie für ', price: '169.- CHF' },
     ];
 
     return (
@@ -67,19 +67,16 @@ const PriceList = () => {
                     {/* Left: Pricing Info */}
                     <div className="price-info-col" ref={addRef}>
                         <h2 className="price-main-title">
-                            Eleganz und Qualität zu einem fairen Preis
+                            Eleganz und Qualität zum fairen Preis
                         </h2>
 
                         <p className="price-intro">
-                            Ich verwende erstklassige Stoffe aus reiner Schurwolle in den Qualitäten
-                            Super130 bis Super 200. Dieses exklusive Material garantiert Langlebigkeit,
-                            Komfort und verleiht Ihren Kleidungsstücken eine zeitlose Eleganz.
+                            Ich verarbeite erstklassigen Spitzenstoff aus reiner Schurwolle in den Qualitäten Super130 bis Super 200. Dieses exklusive Material garantiert Langlebigkeit, Komfort und verleiht Ihren Kleidungsstücken eine zeitlose Eleganz.
                         </p>
 
                         <p className="price-subtitle">
-                            Für die hochwertige Super130 Qualität,<br />
-                            fertige ich Anzüge, Sakkos, Hosen und Westen zu attraktiven Preisen, die dem
-                            Anspruch an Exklusivität gerecht werden:
+                            Für die hochwertige Super130-Qualität fertige ich Anzüge, Sakkos, Hosen und Westen zu attraktiven Preisen,<br />
+                            die dem Anspruch an Exklusivität gerecht werden.
                         </p>
 
                         <ul className="price-items-list">
@@ -95,10 +92,7 @@ const PriceList = () => {
 
                         <div className="price-closing">
                             <p>
-                                Jedes Kleidungsstück wird nach Ihren persönlichen Wünschen und Massen für eine
-                                perfekte Passform und maximalen Tragekomfort gefertigt. Vertrauen Sie auf meine
-                                Expertise und Leidenschaft für exklusive Stoffe, um Ihren individuellen Stil auf
-                                höchstem Niveau zu verwirklichen.
+                                Jedes Kleidungsstück wird nach Ihren persönlichen Wünschen und Massen gefertigt für eine perfekte Passform und höchsten Tragekomfort. Vertrauen Sie auf meine Fachkompetenz und Leidenschaft für exklusive Stoffe, um Ihren individuellen Stil auf höchstem Niveau zu verwirklichen.
                             </p>
                         </div>
                     </div>

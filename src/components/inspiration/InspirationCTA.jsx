@@ -27,7 +27,7 @@ const InspirationCTA = () => {
     return (
         <section className="insp-cta-section" ref={sectionRef}>
             <Link to="/booking">
-                <button className="insp-cta-btn">TERMIN VEREINBAREN</button>
+                <button className="insp-cta-btn">TERMIN BUCHEN</button>
             </Link>
         </section>
     );
