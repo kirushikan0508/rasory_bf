@@ -34,7 +34,7 @@ const AboutQuote = () => {
                 </div>
                 <div className="about-quote-text">
                     <blockquote>
-                        "Denn wahre Individualität ist keine Massenware."
+                        "Weil wahre Individualität keine Massenware ist."
                     </blockquote>
                     <cite>– Rasory</cite>
                 </div>
