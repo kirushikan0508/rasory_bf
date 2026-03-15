@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 // Components
 import Hero from '../components/ui/Hero';
@@ -18,7 +16,6 @@ import './MadeToMeasureTrouser.css';
 const MadeToMeasureTrouser = () => {
     return (
         <div className="trouser-page">
-            <Navbar />
             <Hero
                 title="Präzision in jeder Falte"
                 subtitle="Massgeschneiderte Hosen"
@@ -32,7 +29,6 @@ const MadeToMeasureTrouser = () => {
             <TrouserStrip />
             {/* <TrouserConsult /> */}
             <Consultant />           
-            <Footer />
         </div>
     );
 };

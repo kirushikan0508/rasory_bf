@@ -1,6 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import { MapPin, CalendarCheck, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import imgmain from "../assets/Preislisten/Rasory  Preislisten 01.jpg"
@@ -40,7 +38,6 @@ const Store = () => {
 
     return (
         <div className="store-page">
-            <Navbar />
 
             <Hero 
                 title="Unser Flagship-Store"
@@ -129,8 +126,6 @@ const Store = () => {
                     </div>
                 </div>
             </section>
-
-            <Footer />
         </div>
     );
 };

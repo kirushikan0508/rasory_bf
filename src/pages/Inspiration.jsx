@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import InspirationTitle from '../components/inspiration/InspirationTitle';
 import InspirationGallery from '../components/inspiration/InspirationGallery';
 import InspirationCTA from '../components/inspiration/InspirationCTA';
@@ -11,7 +9,6 @@ import Hero from '../components/ui/Hero';
 const Inspiration = () => {
     return (
         <div className="insp-page">
-            <Navbar />
             <Hero
                 title="Eine Welt der modischen Inspiration"
                 subtitle="Kuratierter Stil & Visuals"
@@ -23,7 +20,6 @@ const Inspiration = () => {
             <InspirationTitle />
             <InspirationGallery />
             <InspirationCTA />
-            <Footer />
         </div>
     );
 };

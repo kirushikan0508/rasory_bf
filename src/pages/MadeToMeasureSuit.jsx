@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 // Components
 import SuitIntro from '../components/madetomeasure/suits/SuitIntro';
@@ -19,7 +17,6 @@ import './MadeToMeasureSuit.css';
 const MadeToMeasureSuit = () => {
     return (
         <div className="suit-page">
-            <Navbar />
             <Hero 
                 title="Eleganz ohne Kompromisse"
                 subtitle="Exquisite Zwei- & Dreiteiler"
@@ -35,7 +32,6 @@ const MadeToMeasureSuit = () => {
             <SuitQuality />
             {/* <SuitConsult /> */}
             <Consultant />
-            <Footer />
         </div>
     );
 };

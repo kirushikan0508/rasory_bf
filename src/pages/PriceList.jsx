@@ -1,6 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import './PriceList.css';
 import price01 from "../assets/Preislisten/Rasory  Preislisten 01.jpg";
 import price02 from "../assets/Preislisten/Rasory  Preislisten 02.jpg";
@@ -50,7 +48,6 @@ const PriceList = () => {
 
     return (
         <div className="pricelist-page">
-            <Navbar />
 
             <Hero 
                 title="Eleganz & Qualität zu einem fairen Preis"
@@ -122,8 +119,6 @@ const PriceList = () => {
                     </div>
                 </div>
             </section>
-
-            <Footer />
         </div>
     );
 };

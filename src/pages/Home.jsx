@@ -1,10 +1,8 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import ProductGrid from '../components/home/ProductGrid';
 import QuoteSection from '../components/home/QuoteSection';
 import MaterialsSection from '../components/home/MaterialsSection';
 import ConsultingSection from '../components/ConsultingSection';
-import Footer from '../components/Footer';
 import Hero from '../components/ui/Hero';
 
 import Sample from '../components/home/Introduction'
@@ -12,7 +10,6 @@ import Sample from '../components/home/Introduction'
 function Home() {
     return (
         <div className="app">
-            <Navbar />
             <main>
                 <Hero
                     title={<>Massgeschneidert für Ihren <br /><span className="gold-text">Auftritt</span></>}
@@ -26,7 +23,6 @@ function Home() {
                 <MaterialsSection />
                 <ConsultingSection />
             </main>
-            <Footer />
         </div>
     );
 }

@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 // Components
 import ShirtIntro from '../components/madetomeasure/shirts/ShirtIntro';
@@ -17,7 +15,6 @@ import './MadeToMeasureShirt.css';
 const MadeToMeasureShirt = () => {
     return (
         <div className="shirt-page">
-            <Navbar />
             <Hero
                 title="Die perfekte Passform, neu definiert"
                 subtitle="Premium Masshemden"
@@ -32,7 +29,6 @@ const MadeToMeasureShirt = () => {
             {/* <ShirtConsult /> */}
             {/* <Detail /> */}
             <Consultant />
-            <Footer />
         </div>
     );
 };

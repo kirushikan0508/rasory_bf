@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import AboutStory from '../components/about/AboutStory';
 import AboutStrip from '../components/about/AboutStrip';
 import AboutValues from '../components/about/AboutValues';
@@ -13,7 +11,6 @@ import './AboutUs.css';
 const AboutUs = () => {
     return (
         <div className="about-page">
-            <Navbar />
             <Hero 
                 title="Unser Erbe der Eleganz"
                 subtitle="Die Rasory Geschichte"
@@ -26,7 +23,6 @@ const AboutUs = () => {
             <AboutStrip />
             <AboutValues />
             <AboutQuote />
-            <Footer />
         </div>
     );
 };

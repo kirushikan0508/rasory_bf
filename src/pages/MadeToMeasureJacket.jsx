@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 // Components
 import JacketIntro from '../components/madetomeasure/jackets/JacketIntro';
@@ -18,7 +16,6 @@ import './MadeToMeasureJacket.css';
 const MadeToMeasureJacket = () => {
     return (
         <div className="jacket-page">
-            <Navbar />
             <Hero 
                 title="Gemacht für den modernen Gentleman"
                 subtitle="Massgeschneiderte Sakkos & Blazer"
@@ -31,7 +28,6 @@ const MadeToMeasureJacket = () => {
             <JacketVersatile />
             {/* <JacketConsult /> */}
             <Consultant />
-            <Footer />
         </div>
     );
 };

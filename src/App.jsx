@@ -11,11 +11,14 @@ import MadeToMeasureSuit from './pages/MadeToMeasureSuit';
 import MadeToMeasureJacket from './pages/MadeToMeasureJacket';
 import ScrollToTop from './components/ScrollToTop';
 import FloatingBookingButton from './components/ui/FloatingBookingButton';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
+      <Navbar />
       {/* <FloatingBookingButton /> */}
       <Routes>
         <Route path="/" element={<Home />} />
@@ -28,6 +31,7 @@ function App() {
         <Route path="/made-to-measure/suit" element={<MadeToMeasureSuit />} />
         <Route path="/made-to-measure/jacket" element={<MadeToMeasureJacket />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
